@@ -1,0 +1,26 @@
+Start Eval： AlexNet
+using cuda:0 device.
+100%|██████████| 85/85 [00:04<00:00, 17.25it/s]
+AlexNet test accuracy: 0.7823529411764706
+Start Eval： AlexNet_without_conv1
+using cuda:0 device.
+100%|██████████| 85/85 [00:02<00:00, 32.34it/s]
+AlexNet_without_conv1 test accuracy: 0.7441176470588236
+Start Eval： AlexNet_without_conv2
+using cuda:0 device.
+100%|██████████| 85/85 [00:02<00:00, 33.35it/s]
+AlexNet_without_conv2 test accuracy: 0.8
+Start Eval： AlexNet_without_conv3
+using cuda:0 device.
+100%|██████████| 85/85 [00:02<00:00, 32.38it/s]
+AlexNet_without_conv3 test accuracy: 0.7970588235294118
+Start Eval： AlexNet_without_conv4
+using cuda:0 device.
+100%|██████████| 85/85 [00:02<00:00, 33.98it/s]
+AlexNet_without_conv4 test accuracy: 0.788235294117647
+Start Eval： AlexNet_without_conv5
+using cuda:0 device.
+100%|██████████| 85/85 [00:02<00:00, 31.82it/s]
+AlexNet_without_conv5 test accuracy: 0.8
+
+Process finished with exit code 0
