@@ -112,6 +112,6 @@ def train_AlexNet(model_name):
 
 if __name__ == '__main__':
     models_list = ["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-                   "AlexNet_without_conv4", "AlexNet_without_conv5"]
+                   "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC"]
     for model_name in models_list:
         train_AlexNet(model_name)

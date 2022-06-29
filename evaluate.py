@@ -12,6 +12,7 @@ batch_size = 32
 epochs = 30
 
 # Directory
+os.chdir(os.getcwd())
 image_path = os.path.abspath(os.path.join(os.getcwd(), "./dataset"))  # get data root path
 assert os.path.exists(image_path), "{} path does not exist.".format(image_path)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -35,7 +36,6 @@ def evaluate_AlexNet(model_name):
     print("Start Eval：", model_name)
     json_path = './class_indices.json'
     assert os.path.exists(json_path), "file: '{}' dose not exist.".format(json_path)
-
     # load model
     model = eval(model_name)(num_classes=5).to(device)
     # load model weights
@@ -68,6 +68,7 @@ def evaluate_AlexNet(model_name):
 if __name__ == '__main__':
     # Final Test
     models_list = ["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-                   "AlexNet_without_conv4", "AlexNet_without_conv5"]
+                   "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC"]
+    print(torch.cuda.is_available())
     for model_name in models_list:
         evaluate_AlexNet(model_name)
