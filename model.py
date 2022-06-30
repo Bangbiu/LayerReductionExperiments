@@ -213,7 +213,7 @@ class AlexNet_without_conv5(nn.Module):
 
 class AlexNet_without_BothFC(nn.Module):
     def __init__(self, num_classes=5):
-        super(AlexNet, self).__init__()
+        super(AlexNet_without_BothFC, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
                                kernel_size=11, stride=4, padding=0)
         self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2)
