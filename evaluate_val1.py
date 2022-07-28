@@ -68,7 +68,7 @@ def evaluate_AlexNet(model_name):
 if __name__ == '__main__':
     # Final Test
     models_list = ["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-                   "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC"]
+               "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC", "AlexNet_Extreme"]
     print(torch.cuda.is_available())
     for model_name in models_list:
         evaluate_AlexNet(model_name)

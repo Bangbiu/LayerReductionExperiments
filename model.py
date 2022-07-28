@@ -240,3 +240,25 @@ class AlexNet_without_BothFC(nn.Module):
         x = self.fc3(x)
         return x
 
+
+
+class AlexNet_Extreme(nn.Module):
+    def __init__(self, num_classes=5):
+        super(AlexNet_Extreme, self).__init__()
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
+                               kernel_size=11, stride=4, padding=0)
+        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2)
+        self.fc3 = nn.Linear(in_features=69984, out_features=num_classes)
+
+    def forward(self, x):
+        x = F.relu(self.conv1(x))
+        x = self.maxpool(x)
+        x = x.reshape(x.shape[0], -1)
+        x = self.fc3(x)
+        return x
+
+
+
+
+
+
