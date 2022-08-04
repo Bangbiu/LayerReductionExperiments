@@ -10,7 +10,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 # Global Parameters
 batch_size = 32
-epochs = 30
+epochs = 100
 
 # Directory
 image_path = os.path.abspath(os.path.join(os.getcwd(), "./dataset"))  # get data root path
@@ -111,7 +111,6 @@ def train_AlexNet(model_name):
 
 
 if __name__ == '__main__':
-    models_list = ["AlexNet","AlexNet_ConcatenateConv1to3", "AlexNet_without_conv2", "AlexNet_without_conv3",
-               "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC", "AlexNet_Extreme"]
+    models_list = ["AlexNet_ConcatenateConv1to2", "AlexNet_ConcatenateConv1to3", "AlexNet_ConcatenateConv1to4"]
     for model_name in models_list:
         train_AlexNet(model_name)
