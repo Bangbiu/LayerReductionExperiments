@@ -39,7 +39,7 @@ def evaluate_AlexNet(model_name):
     # load model
     model = eval(model_name)(num_classes=5).to(device)
     # load model weights
-    weights_path = "./weights/{}.pth".format(model_name)
+    weights_path = "./weights/{}_transf.pth".format(model_name)
     assert os.path.exists(weights_path), "file: '{}' dose not exist.".format(weights_path)
     model.load_state_dict(torch.load(weights_path))
 

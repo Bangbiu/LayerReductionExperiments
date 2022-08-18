@@ -1,6 +1,8 @@
 import os
 import sys
 import json
+
+from torch.nn import Parameter
 from torchvision import transforms, datasets, utils
 import torch.optim as optim
 from tqdm import tqdm
@@ -9,7 +11,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 # Global Parameters
 batch_size = 32
-epochs = 30
+epochs = 100
 
 # Directory
 image_path = os.path.abspath(os.path.join(os.getcwd(), "./dataset"))  # get data root path
@@ -26,12 +28,41 @@ data_transform = {
                                transforms.ToTensor(),
                                transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])}
 
+def load_freeze_part_state_dict(model, state_dict):
+    own_state = model.state_dict()
+    #Loading Part of Pretrained weights: AlexNet_CatAll
+    for name, param in state_dict.items():
+        #print(name)
+        if name not in own_state:
+            continue
+        if isinstance(param, Parameter):
+            # backwards compatibility for serialized parameters
+            param = param.data
+        if (param.size() == own_state[name].size()):
+            own_state[name].copy_(param)
+        else:
+            print("pretrained FC: "),
+            print(param.size())
+            print("Current Model FC: "),
+            print(own_state[name].size())
+            sliced = param[0:own_state[name].shape[0],0:own_state[name].shape[1]]
+            print("Sliced to: "),
+            print(sliced.size())
+            own_state[name].copy_(sliced)
+
+    #To only train the FC Layer. Freezing the rest of layers
+    for name, param in model.named_parameters():
+        if "fc3" in name:
+            print("Unfreezing: " + name)
+        else:
+            print("Freezing: " + name)
+            param.requires_grad = False
 
 def train_AlexNet(model_name):
     print("Start Training：", model_name)
     net = eval(model_name)(num_classes=5)
     print("using {} device.".format(device))
-    save_path = './weights/{}.pth'.format(model_name)  # Save Weights
+    save_path = './weights/{}_transf.pth'.format(model_name)  # Save Weights
     tb_writer = SummaryWriter("runs/{}".format(model_name))
     train_dataset = datasets.ImageFolder(root=os.path.join(image_path, "train"),
                                          transform=data_transform["train"])
@@ -61,6 +92,12 @@ def train_AlexNet(model_name):
                                                                            val_num))
 
     net.to(device)
+    pretrained_weights_path = "./weights/AlexNet_CatAllConv.pth"
+    assert os.path.exists(pretrained_weights_path), "file: '{}' dose not exist.".format(pretrained_weights_path)
+
+    #net.load_state_dict(torch.load(pretrained_weights_path), strict=False)
+    load_freeze_part_state_dict(net,torch.load(pretrained_weights_path))
+
     loss_function = nn.CrossEntropyLoss()
     # pata = list(net.parameters())
     optimizer = optim.Adam(net.parameters(), lr=0.0002)
@@ -110,7 +147,7 @@ def train_AlexNet(model_name):
 
 
 if __name__ == '__main__':
-    models_list = ["AlexNet_Extreme"] #["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-               #"AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC", "AlexNet_Extreme"]
+    models_list = ["AlexNet_ConcatenateConv1to2", "AlexNet_ConcatenateConv1to3", "AlexNet_ConcatenateConv1to4"]
+
     for model_name in models_list:
         train_AlexNet(model_name)

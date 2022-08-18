@@ -111,6 +111,6 @@ def train_AlexNet(model_name):
 
 
 if __name__ == '__main__':
-    models_list = ["AlexNet_ConcatenateConv1to2", "AlexNet_ConcatenateConv1to3", "AlexNet_ConcatenateConv1to4"]
+    models_list = ["AlexNet_CatAllConv"]#["AlexNet_ConcatenateConv1to2", "AlexNet_ConcatenateConv1to3", "AlexNet_ConcatenateConv1to4"]
     for model_name in models_list:
         train_AlexNet(model_name)
