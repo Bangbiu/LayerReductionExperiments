@@ -7,10 +7,6 @@ from tqdm import tqdm
 from model import *
 from torch.utils.tensorboard import SummaryWriter
 
-# Global Parameters
-batch_size = 32
-epochs = 30
-
 # Directory
 os.chdir(os.getcwd())
 image_path = os.path.abspath(os.path.join(os.getcwd(), "./dataset"))  # get data root path
@@ -32,14 +28,14 @@ data_transform = {
 }
 
 
-def evaluate_AlexNet(model_name):
+def evaluate_AlexNet(model_name, path):
     print("Start Eval：", model_name)
     json_path = './class_indices.json'
     assert os.path.exists(json_path), "file: '{}' dose not exist.".format(json_path)
     # load model
     model = eval(model_name)(num_classes=5).to(device)
     # load model weights
-    weights_path = "./weights/{}.pth".format(model_name)
+    weights_path = "./weights/" + path
     assert os.path.exists(weights_path), "file: '{}' dose not exist.".format(weights_path)
     model.load_state_dict(torch.load(weights_path))
 
@@ -66,9 +62,14 @@ def evaluate_AlexNet(model_name):
 
 
 if __name__ == '__main__':
-    # Final Test
-    models_list = ["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-               "AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC", "AlexNet_Extreme"]
-    print(torch.cuda.is_available())
-    for model_name in models_list:
-        evaluate_AlexNet(model_name)
+    sys.argv.__delitem__(0);
+    print('Evaluating Scheduled: ', str(sys.argv))
+
+    for modelName in sys.argv:
+        if "@" in modelName:
+            modelAndPath = modelName.split("@")
+            modelName = modelAndPath[0]
+            path = modelAndPath[1]
+            evaluate_AlexNet(modelName, path)
+        else:
+            evaluate_AlexNet(modelName, modelName + ".pth")

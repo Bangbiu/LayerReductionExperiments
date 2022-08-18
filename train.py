@@ -1,6 +1,9 @@
+
 import os
 import sys
 import json
+
+from torch.nn import Parameter
 from torchvision import transforms, datasets, utils
 import torch.optim as optim
 from tqdm import tqdm
@@ -8,12 +11,8 @@ from model import *
 from torch.utils.tensorboard import SummaryWriter
 
 # Global Parameters
-batch_size = 32
-epochs = 30
 
-# Directory
-image_path = os.path.abspath(os.path.join(os.getcwd(), "./dataset"))  # get data root path
-assert os.path.exists(image_path), "{} path does not exist.".format(image_path)
+# Device
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Parameters
@@ -27,11 +26,57 @@ data_transform = {
                                transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])}
 
 
-def train_AlexNet(model_name):
-    print("Start Training：", model_name)
+def load_freeze_part_state_dict(model, state_dict):
+    own_state = model.state_dict()
+    for name, param in state_dict.items():
+        if name not in own_state:
+            continue
+        if isinstance(param, Parameter):
+            # backwards compatibility for serialized parameters
+            param = param.data
+
+        print("Copying " + name + " Data...")
+
+        if (param.size() == own_state[name].size()):
+            own_state[name].copy_(param)
+        else:
+            print(" pretrained " + name + ": ", param.size())
+            print(" Current Model" + name + ": ", own_state[name].size()),
+            sliced = param[0:own_state[name].shape[0],0:own_state[name].shape[1]]
+            print(" Sliced to: ", sliced.size())
+            own_state[name].copy_(sliced)
+
+    #To only train the designated Layer. Freezing the rest of layers
+    for name, param in model.named_parameters():
+        Tolock = True;
+        for key in model.layerToTrain:
+            if key in name:
+                Tolock = False;
+                break;
+        if Tolock:
+            print("Freeze: " + name)
+            param.requires_grad = False
+        else:
+            print("Unfreeze: " + name)
+
+
+def train_AlexNet(model_name, ptmodel_path="", image_path = "./dataset", epochs = 100, batch_size = 32):
+
+    # Directory
+    image_path = os.path.abspath(os.path.join(os.getcwd(), image_path))  # get data root path
+    assert os.path.exists(image_path), "{} path does not exist.".format(image_path)
+
+    starting = "scratch"
+    if ptmodel_path == "":
+        save_path = "./weights/" + model_name + ".pth" # Save Weights
+    else:
+        save_path = "./weights/" + model_name + "_from_" + ptmodel_path # Save Weights with Transfer Learning
+        starting = ptmodel_path
+
+    print("Start Training：", model_name, " from ", starting)
     net = eval(model_name)(num_classes=5)
     print("using {} device.".format(device))
-    save_path = './weights/{}.pth'.format(model_name)  # Save Weights
+
     tb_writer = SummaryWriter("runs/{}".format(model_name))
     train_dataset = datasets.ImageFolder(root=os.path.join(image_path, "train"),
                                          transform=data_transform["train"])
@@ -41,7 +86,7 @@ def train_AlexNet(model_name):
     cla_dict = dict((val, key) for key, val in flower_list.items())
     # write dict into json file
     json_str = json.dumps(cla_dict, indent=4)
-    with open('class_indices.json', 'w') as json_file:
+    with open('../class_indices.json', 'w') as json_file:
         json_file.write(json_str)
     nw = min([os.cpu_count(), batch_size if batch_size > 1 else 0, 8])  # number of workers
     print('Using {} dataloader workers every process'.format(nw))
@@ -61,6 +106,13 @@ def train_AlexNet(model_name):
                                                                            val_num))
 
     net.to(device)
+
+    if ptmodel_path != "":
+        pretrained_weights_path = "./weights/" + ptmodel_path
+        assert os.path.exists(pretrained_weights_path), "file: '{}' dose not exist.".format(pretrained_weights_path)
+
+        load_freeze_part_state_dict(net,torch.load(pretrained_weights_path))
+
     loss_function = nn.CrossEntropyLoss()
     # pata = list(net.parameters())
     optimizer = optim.Adam(net.parameters(), lr=0.0002)
@@ -104,13 +156,22 @@ def train_AlexNet(model_name):
         if val_accurate > best_acc:
             best_acc = val_accurate
             torch.save(net.state_dict(), save_path)
+
         tb_writer.add_scalar("train_loss", running_loss / train_steps, epoch + 1)
         tb_writer.add_scalar("val_accuracy", val_accurate, epoch + 1)
     print('Finished Training')
 
-
 if __name__ == '__main__':
-    models_list = ["AlexNet_Extreme"] #["AlexNet","AlexNet_without_conv1", "AlexNet_without_conv2", "AlexNet_without_conv3",
-               #"AlexNet_without_conv4", "AlexNet_without_conv5", "AlexNet_without_BothFC", "AlexNet_Extreme"]
-    for model_name in models_list:
-        train_AlexNet(model_name)
+    sys.argv.__delitem__(0);
+    print('Training Scheduled: ', str(sys.argv))
+
+    for modelName in sys.argv:
+        if "@" in modelName:
+            modelAndPath = modelName.split("@")
+            modelName = modelAndPath[0]
+            path = modelAndPath[1]
+            train_AlexNet(modelName, path)
+        else:
+            train_AlexNet(modelName)
+
+

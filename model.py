@@ -3,8 +3,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+# Original AlexNet
 class AlexNet(nn.Module):
+    layerToTrain = "all"
     def __init__(self, num_classes=5):
         super(AlexNet, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -31,7 +32,7 @@ class AlexNet(nn.Module):
         x = F.relu(self.conv4(x))       # output[384, 13, 13]
         x = F.relu(self.conv5(x))       # output[256, 13, 13]
         x = self.maxpool(x)             # output[256, 6, 6]
-        x = x.reshape(x.shape[0], -1)  # reshape to 256*6*6 = 9246
+        x = x.reshape(x.shape[0], -1)   # reshape to 256*6*6 = 9246
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
         x = self.fc3(x)
@@ -40,6 +41,7 @@ class AlexNet(nn.Module):
 
 # Reduced AlexNet
 class AlexNet_without_conv1(nn.Module):
+    layerToTrain = ["conv2a", "fc"]
     def __init__(self,num_classes=5):
         super(AlexNet_without_conv1, self).__init__()
         # self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -74,6 +76,7 @@ class AlexNet_without_conv1(nn.Module):
 
 
 class AlexNet_without_conv2(nn.Module):
+    layerToTrain = ["conv3a", "fc"]
     def __init__(self,num_classes=5):
         super(AlexNet_without_conv2, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -108,6 +111,7 @@ class AlexNet_without_conv2(nn.Module):
 
 
 class AlexNet_without_conv3(nn.Module):
+    layerToTrain = ["conv4a", "fc"]
     def __init__(self, num_classes=5):
         super(AlexNet_without_conv3, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -142,6 +146,7 @@ class AlexNet_without_conv3(nn.Module):
 
 
 class AlexNet_without_conv4(nn.Module):
+    layerToTrain = ["conv5a", "fc"]
     def __init__(self, num_classes=5):
         super(AlexNet_without_conv4, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -174,8 +179,8 @@ class AlexNet_without_conv4(nn.Module):
         x = self.fc3(x)
         return x
 
-
 class AlexNet_without_conv5(nn.Module):
+    layerToTrain = ["conv6","fc"]
     def __init__(self, num_classes=5):
         super(AlexNet_without_conv5, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -187,8 +192,6 @@ class AlexNet_without_conv5(nn.Module):
                                kernel_size=3, stride=1, padding=1)
         self.conv4 = nn.Conv2d(in_channels=384, out_channels=384,
                                kernel_size=3, stride=1, padding=1)
-        self.conv5 = nn.Conv2d(in_channels=384, out_channels=256,
-                                kernel_size=3, stride=1, padding=1)
         self.conv6 = nn.Conv2d(in_channels=384, out_channels=256,
                                kernel_size=1, stride=1, padding=0)
         self.fc1 = nn.Linear(in_features=9216, out_features=4096)
@@ -212,6 +215,7 @@ class AlexNet_without_conv5(nn.Module):
 
 
 class AlexNet_without_BothFC(nn.Module):
+    layerToTrain = ["fc"]
     def __init__(self, num_classes=5):
         super(AlexNet_without_BothFC, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -243,6 +247,7 @@ class AlexNet_without_BothFC(nn.Module):
 
 
 class AlexNet_Extreme(nn.Module):
+    layerToTrain = ["fc"]
     def __init__(self, num_classes=5):
         super(AlexNet_Extreme, self).__init__()
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=96,
@@ -257,6 +262,8 @@ class AlexNet_Extreme(nn.Module):
         x = self.fc3(x)
         return x
 
+
+# Concatenate Model
 class AlexNet_ConcatenateConv1to2(nn.Module):
     def __init__(self, num_classes=5):
         super(AlexNet_ConcatenateConv1to2, self).__init__()

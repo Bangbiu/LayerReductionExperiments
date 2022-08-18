@@ -1,7 +1,0 @@
-AlexNet	0.630	0.654	0.668
-AlexNet_without_conv1	0.619	0.661	0.651
-AlexNet_without_conv2	0.668	0.696	0.673
-AlexNet_without_conv3	0.625	0.651	0.650
-AlexNet_without_conv4	0.665	0.664	0.651
-AlexNet_without_conv5	0.642	0.687	0.642
-AlexNet_without_BothFC	0.624	0.662	0.635
