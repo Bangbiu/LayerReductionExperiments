@@ -1,0 +1,31 @@
+Evaluating Scheduled:  ['AlexNet_without_conv1@AlexNet_without_conv1_from_AlexNet.pth', 'AlexNet_without_conv2@AlexNet_without_conv2_from_AlexNet.pth', 'AlexNet_without_conv3@AlexNet_without_conv3_from_AlexNet.pth', 'AlexNet_without_conv4@AlexNet_without_conv4_from_AlexNet.pth', 'AlexNet_without_conv5@AlexNet_without_conv5_from_AlexNet.pth']
+Start Eval： AlexNet_without_conv1
+using cuda:0 device.
+100% 85/85 [00:03<00:00, 24.70it/s]
+AlexNet_without_conv1 test accuracy: 0.6823529411764706
+Start Eval： AlexNet_without_conv2
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 35.76it/s]
+AlexNet_without_conv2 test accuracy: 0.7941176470588235
+Start Eval： AlexNet_without_conv3
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 35.35it/s]
+AlexNet_without_conv3 test accuracy: 0.8323529411764706
+Start Eval： AlexNet_without_conv4
+using cuda:0 device.
+100% 85/85 [00:03<00:00, 27.32it/s]
+AlexNet_without_conv4 test accuracy: 0.8352941176470589
+Start Eval： AlexNet_without_conv5
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 35.32it/s]
+AlexNet_without_conv5 test accuracy: 0.8411764705882353
+
+Evaluating Scheduled:  ['AlexNet_without_BothFC@AlexNet_without_BothFC_from_AlexNet.pth', 'AlexNet_Extreme@AlexNet_Extreme_from_AlexNet.pth']
+Start Eval： AlexNet_without_BothFC
+using cuda:0 device.
+100% 85/85 [00:03<00:00, 25.27it/s]
+AlexNet_without_BothFC test accuracy: 0.8264705882352941
+Start Eval： AlexNet_Extreme
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 36.51it/s]
+AlexNet_Extreme test accuracy: 0.7176470588235294

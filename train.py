@@ -40,11 +40,13 @@ def load_freeze_part_state_dict(model, state_dict):
         if (param.size() == own_state[name].size()):
             own_state[name].copy_(param)
         else:
-            print(" pretrained " + name + ": ", param.size())
-            print(" Current Model" + name + ": ", own_state[name].size()),
-            sliced = param[0:own_state[name].shape[0],0:own_state[name].shape[1]]
-            print(" Sliced to: ", sliced.size())
-            own_state[name].copy_(sliced)
+            wShape = own_state[name].shape;
+            if wShape[0] <= param.shape[0] and wShape[1] <= param.shape[1]:
+                print(" pretrained " + name + ": ", param.size())
+                print(" Current Model " + name + ": ", own_state[name].size()),
+                sliced = param[0:wShape[0],0:wShape[1]]
+                print(" Sliced to: ", sliced.size())
+                own_state[name].copy_(sliced)
 
     #To only train the designated Layer. Freezing the rest of layers
     for name, param in model.named_parameters():

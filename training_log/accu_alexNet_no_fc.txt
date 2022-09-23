@@ -1,0 +1,21 @@
+Evaluating Scheduled:  ['ANR_Conv1_2FC@ANR_Conv1_2FC_from_AlexNet.pth', 'ANR_Conv2_2FC@ANR_Conv2_2FC_from_AlexNet.pth', 'ANR_Conv3_2FC@ANR_Conv3_2FC_from_AlexNet.pth', 'ANR_Conv4_2FC@ANR_Conv4_2FC_from_AlexNet.pth', 'ANR_Conv5_2FC@ANR_Conv5_2FC_from_AlexNet.pth']
+Start Eval： ANR_Conv1_2FC
+using cuda:0 device.
+100% 85/85 [02:04<00:00,  1.47s/it]
+ANR_Conv1_2FC test accuracy: 0.7088235294117647
+Start Eval： ANR_Conv2_2FC
+using cuda:0 device.
+100% 85/85 [00:03<00:00, 23.57it/s]
+ANR_Conv2_2FC test accuracy: 0.8117647058823529
+Start Eval： ANR_Conv3_2FC
+using cuda:0 device.
+100% 85/85 [00:03<00:00, 27.32it/s]
+ANR_Conv3_2FC test accuracy: 0.8352941176470589
+Start Eval： ANR_Conv4_2FC
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 30.50it/s]
+ANR_Conv4_2FC test accuracy: 0.8294117647058824
+Start Eval： ANR_Conv5_2FC
+using cuda:0 device.
+100% 85/85 [00:02<00:00, 30.65it/s]
+ANR_Conv5_2FC test accuracy: 0.8264705882352941

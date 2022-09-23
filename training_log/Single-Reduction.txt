@@ -1,0 +1,2310 @@
+Training Scheduled:  ['AlexNet_without_conv1@AlexNet.pth', 'AlexNet_without_conv2@AlexNet.pth', 'AlexNet_without_conv3@AlexNet.pth', 'AlexNet_without_conv4@AlexNet.pth', 'AlexNet_without_conv5@AlexNet.pth', 'AlexNet_without_BothFC@AlexNet.pth', 'AlexNet_Extreme@AlexNet.pth']
+
+Start Training： AlexNet_without_conv1 from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv3.weight Weights...
+Copying conv3.bias Weights...
+Copying conv4.weight Weights...
+Copying conv4.bias Weights...
+Copying conv5.weight Weights...
+Copying conv5.bias Weights...
+Copying fc1.weight Weights...
+Copying fc1.bias Weights...
+Copying fc2.weight Weights...
+Copying fc2.bias Weights...
+Copying fc3.weight Weights...
+Copying fc3.bias Weights...
+Unfreeze: conv2a.weight
+Unfreeze: conv2a.bias
+Freeze: conv3.weight
+Freeze: conv3.bias
+Freeze: conv4.weight
+Freeze: conv4.bias
+Freeze: conv5.weight
+Freeze: conv5.bias
+Unfreeze: fc1.weight
+Unfreeze: fc1.bias
+Unfreeze: fc2.weight
+Unfreeze: fc2.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:1.170: 100% 93/93 [05:33<00:00,  3.59s/it]
+100% 91/91 [02:00<00:00,  1.33s/it]
+[epoch 1] train_loss: 1.586  val_accuracy: 0.495
+train epoch[2/100] loss:0.957: 100% 93/93 [00:16<00:00,  5.60it/s]
+100% 91/91 [00:02<00:00, 37.01it/s]
+[epoch 2] train_loss: 1.177  val_accuracy: 0.486
+train epoch[3/100] loss:0.968: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 36.99it/s]
+[epoch 3] train_loss: 1.106  val_accuracy: 0.536
+train epoch[4/100] loss:0.752: 100% 93/93 [00:16<00:00,  5.61it/s]
+100% 91/91 [00:02<00:00, 37.08it/s]
+[epoch 4] train_loss: 1.064  val_accuracy: 0.604
+train epoch[5/100] loss:1.050: 100% 93/93 [00:16<00:00,  5.52it/s]
+100% 91/91 [00:02<00:00, 37.20it/s]
+[epoch 5] train_loss: 1.026  val_accuracy: 0.604
+train epoch[6/100] loss:0.965: 100% 93/93 [00:19<00:00,  4.86it/s]
+100% 91/91 [00:02<00:00, 36.56it/s]
+[epoch 6] train_loss: 1.001  val_accuracy: 0.626
+train epoch[7/100] loss:0.666: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 36.84it/s]
+[epoch 7] train_loss: 0.966  val_accuracy: 0.604
+train epoch[8/100] loss:1.150: 100% 93/93 [00:16<00:00,  5.60it/s]
+100% 91/91 [00:02<00:00, 37.48it/s]
+[epoch 8] train_loss: 0.949  val_accuracy: 0.646
+train epoch[9/100] loss:0.757: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 37.05it/s]
+[epoch 9] train_loss: 0.913  val_accuracy: 0.651
+train epoch[10/100] loss:0.912: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 36.40it/s]
+[epoch 10] train_loss: 0.910  val_accuracy: 0.648
+train epoch[11/100] loss:0.917: 100% 93/93 [00:17<00:00,  5.18it/s]
+100% 91/91 [00:02<00:00, 35.26it/s]
+[epoch 11] train_loss: 0.890  val_accuracy: 0.673
+train epoch[12/100] loss:1.129: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 35.76it/s]
+[epoch 12] train_loss: 0.899  val_accuracy: 0.676
+train epoch[13/100] loss:1.095: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 36.99it/s]
+[epoch 13] train_loss: 0.868  val_accuracy: 0.695
+train epoch[14/100] loss:1.029: 100% 93/93 [00:17<00:00,  5.47it/s]
+100% 91/91 [00:02<00:00, 35.93it/s]
+[epoch 14] train_loss: 0.842  val_accuracy: 0.712
+train epoch[15/100] loss:1.120: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 35.53it/s]
+[epoch 15] train_loss: 0.853  val_accuracy: 0.676
+train epoch[16/100] loss:0.944: 100% 93/93 [00:19<00:00,  4.81it/s]
+100% 91/91 [00:02<00:00, 36.16it/s]
+[epoch 16] train_loss: 0.837  val_accuracy: 0.659
+train epoch[17/100] loss:1.142: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 37.13it/s]
+[epoch 17] train_loss: 0.828  val_accuracy: 0.687
+train epoch[18/100] loss:1.118: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 37.13it/s]
+[epoch 18] train_loss: 0.819  val_accuracy: 0.668
+train epoch[19/100] loss:0.681: 100% 93/93 [00:15<00:00,  5.85it/s]
+100% 91/91 [00:02<00:00, 35.81it/s]
+[epoch 19] train_loss: 0.803  val_accuracy: 0.701
+train epoch[20/100] loss:1.092: 100% 93/93 [00:16<00:00,  5.50it/s]
+100% 91/91 [00:02<00:00, 36.59it/s]
+[epoch 20] train_loss: 0.799  val_accuracy: 0.701
+train epoch[21/100] loss:0.603: 100% 93/93 [00:16<00:00,  5.60it/s]
+100% 91/91 [00:02<00:00, 37.48it/s]
+[epoch 21] train_loss: 0.776  val_accuracy: 0.709
+train epoch[22/100] loss:0.618: 100% 93/93 [00:16<00:00,  5.51it/s]
+100% 91/91 [00:02<00:00, 36.92it/s]
+[epoch 22] train_loss: 0.809  val_accuracy: 0.712
+train epoch[23/100] loss:0.949: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 36.80it/s]
+[epoch 23] train_loss: 0.764  val_accuracy: 0.712
+train epoch[24/100] loss:0.535: 100% 93/93 [00:16<00:00,  5.71it/s]
+100% 91/91 [00:02<00:00, 36.89it/s]
+[epoch 24] train_loss: 0.753  val_accuracy: 0.698
+train epoch[25/100] loss:0.751: 100% 93/93 [00:18<00:00,  5.15it/s]
+100% 91/91 [00:02<00:00, 36.57it/s]
+[epoch 25] train_loss: 0.767  val_accuracy: 0.698
+train epoch[26/100] loss:1.007: 100% 93/93 [00:18<00:00,  5.09it/s]
+100% 91/91 [00:03<00:00, 26.27it/s]
+[epoch 26] train_loss: 0.750  val_accuracy: 0.734
+train epoch[27/100] loss:0.649: 100% 93/93 [00:16<00:00,  5.70it/s]
+100% 91/91 [00:02<00:00, 37.01it/s]
+[epoch 27] train_loss: 0.756  val_accuracy: 0.739
+train epoch[28/100] loss:0.564: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 36.94it/s]
+[epoch 28] train_loss: 0.729  val_accuracy: 0.709
+train epoch[29/100] loss:0.666: 100% 93/93 [00:16<00:00,  5.73it/s]
+100% 91/91 [00:02<00:00, 37.61it/s]
+[epoch 29] train_loss: 0.756  val_accuracy: 0.723
+train epoch[30/100] loss:0.883: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 35.50it/s]
+[epoch 30] train_loss: 0.732  val_accuracy: 0.714
+train epoch[31/100] loss:0.731: 100% 93/93 [00:16<00:00,  5.74it/s]
+100% 91/91 [00:02<00:00, 36.13it/s]
+[epoch 31] train_loss: 0.719  val_accuracy: 0.731
+train epoch[32/100] loss:0.565: 100% 93/93 [00:16<00:00,  5.72it/s]
+100% 91/91 [00:02<00:00, 37.45it/s]
+[epoch 32] train_loss: 0.705  val_accuracy: 0.753
+train epoch[33/100] loss:0.650: 100% 93/93 [00:16<00:00,  5.70it/s]
+100% 91/91 [00:02<00:00, 37.40it/s]
+[epoch 33] train_loss: 0.709  val_accuracy: 0.723
+train epoch[34/100] loss:0.421: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 37.18it/s]
+[epoch 34] train_loss: 0.701  val_accuracy: 0.750
+train epoch[35/100] loss:0.498: 100% 93/93 [00:16<00:00,  5.75it/s]
+100% 91/91 [00:02<00:00, 37.15it/s]
+[epoch 35] train_loss: 0.703  val_accuracy: 0.695
+train epoch[36/100] loss:0.284: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 36.40it/s]
+[epoch 36] train_loss: 0.681  val_accuracy: 0.717
+train epoch[37/100] loss:0.508: 100% 93/93 [00:19<00:00,  4.72it/s]
+100% 91/91 [00:02<00:00, 36.89it/s]
+[epoch 37] train_loss: 0.681  val_accuracy: 0.703
+train epoch[38/100] loss:0.645: 100% 93/93 [00:16<00:00,  5.65it/s]
+100% 91/91 [00:02<00:00, 37.13it/s]
+[epoch 38] train_loss: 0.702  val_accuracy: 0.725
+train epoch[39/100] loss:0.801: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 36.61it/s]
+[epoch 39] train_loss: 0.677  val_accuracy: 0.750
+train epoch[40/100] loss:0.631: 100% 93/93 [00:18<00:00,  5.13it/s]
+100% 91/91 [00:02<00:00, 36.61it/s]
+[epoch 40] train_loss: 0.668  val_accuracy: 0.731
+train epoch[41/100] loss:0.718: 100% 93/93 [00:16<00:00,  5.62it/s]
+100% 91/91 [00:02<00:00, 36.48it/s]
+[epoch 41] train_loss: 0.668  val_accuracy: 0.758
+train epoch[42/100] loss:0.776: 100% 93/93 [00:17<00:00,  5.45it/s]
+100% 91/91 [00:02<00:00, 36.82it/s]
+[epoch 42] train_loss: 0.667  val_accuracy: 0.753
+train epoch[43/100] loss:0.511: 100% 93/93 [00:16<00:00,  5.55it/s]
+100% 91/91 [00:02<00:00, 35.87it/s]
+[epoch 43] train_loss: 0.624  val_accuracy: 0.736
+train epoch[44/100] loss:0.773: 100% 93/93 [00:16<00:00,  5.68it/s]
+100% 91/91 [00:02<00:00, 36.93it/s]
+[epoch 44] train_loss: 0.659  val_accuracy: 0.728
+train epoch[45/100] loss:0.652: 100% 93/93 [00:16<00:00,  5.68it/s]
+100% 91/91 [00:02<00:00, 36.90it/s]
+[epoch 45] train_loss: 0.633  val_accuracy: 0.736
+train epoch[46/100] loss:0.655: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 37.06it/s]
+[epoch 46] train_loss: 0.649  val_accuracy: 0.755
+train epoch[47/100] loss:0.546: 100% 93/93 [00:19<00:00,  4.76it/s]
+100% 91/91 [00:02<00:00, 36.83it/s]
+[epoch 47] train_loss: 0.637  val_accuracy: 0.750
+train epoch[48/100] loss:1.021: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 36.65it/s]
+[epoch 48] train_loss: 0.632  val_accuracy: 0.739
+train epoch[49/100] loss:0.600: 100% 93/93 [00:16<00:00,  5.59it/s]
+100% 91/91 [00:02<00:00, 37.80it/s]
+[epoch 49] train_loss: 0.638  val_accuracy: 0.723
+train epoch[50/100] loss:0.853: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 36.64it/s]
+[epoch 50] train_loss: 0.626  val_accuracy: 0.753
+train epoch[51/100] loss:0.379: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 36.42it/s]
+[epoch 51] train_loss: 0.615  val_accuracy: 0.739
+train epoch[52/100] loss:0.781: 100% 93/93 [00:16<00:00,  5.59it/s]
+100% 91/91 [00:02<00:00, 36.54it/s]
+[epoch 52] train_loss: 0.620  val_accuracy: 0.720
+train epoch[53/100] loss:0.359: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 37.15it/s]
+[epoch 53] train_loss: 0.588  val_accuracy: 0.736
+train epoch[54/100] loss:0.448: 100% 93/93 [00:18<00:00,  5.16it/s]
+100% 91/91 [00:02<00:00, 36.73it/s]
+[epoch 54] train_loss: 0.597  val_accuracy: 0.755
+train epoch[55/100] loss:0.383: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 37.46it/s]
+[epoch 55] train_loss: 0.615  val_accuracy: 0.747
+train epoch[56/100] loss:1.008: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 37.22it/s]
+[epoch 56] train_loss: 0.583  val_accuracy: 0.709
+train epoch[57/100] loss:0.475: 100% 93/93 [00:16<00:00,  5.59it/s]
+100% 91/91 [00:04<00:00, 21.99it/s]
+[epoch 57] train_loss: 0.583  val_accuracy: 0.758
+train epoch[58/100] loss:0.412: 100% 93/93 [00:17<00:00,  5.36it/s]
+100% 91/91 [00:02<00:00, 37.37it/s]
+[epoch 58] train_loss: 0.601  val_accuracy: 0.758
+train epoch[59/100] loss:0.735: 100% 93/93 [00:16<00:00,  5.62it/s]
+100% 91/91 [00:02<00:00, 36.83it/s]
+[epoch 59] train_loss: 0.575  val_accuracy: 0.742
+train epoch[60/100] loss:0.467: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 37.30it/s]
+[epoch 60] train_loss: 0.574  val_accuracy: 0.755
+train epoch[61/100] loss:0.243: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 36.99it/s]
+[epoch 61] train_loss: 0.575  val_accuracy: 0.731
+train epoch[62/100] loss:0.890: 100% 93/93 [00:15<00:00,  5.82it/s]
+100% 91/91 [00:02<00:00, 37.31it/s]
+[epoch 62] train_loss: 0.575  val_accuracy: 0.750
+train epoch[63/100] loss:0.568: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 37.18it/s]
+[epoch 63] train_loss: 0.568  val_accuracy: 0.745
+train epoch[64/100] loss:0.471: 100% 93/93 [00:16<00:00,  5.56it/s]
+100% 91/91 [00:02<00:00, 37.35it/s]
+[epoch 64] train_loss: 0.574  val_accuracy: 0.736
+train epoch[65/100] loss:0.676: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 36.48it/s]
+[epoch 65] train_loss: 0.565  val_accuracy: 0.750
+train epoch[66/100] loss:0.337: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 36.99it/s]
+[epoch 66] train_loss: 0.556  val_accuracy: 0.745
+train epoch[67/100] loss:0.799: 100% 93/93 [00:16<00:00,  5.65it/s]
+100% 91/91 [00:02<00:00, 37.12it/s]
+[epoch 67] train_loss: 0.560  val_accuracy: 0.753
+train epoch[68/100] loss:0.648: 100% 93/93 [00:19<00:00,  4.76it/s]
+100% 91/91 [00:02<00:00, 37.06it/s]
+[epoch 68] train_loss: 0.562  val_accuracy: 0.747
+train epoch[69/100] loss:0.462: 100% 93/93 [00:18<00:00,  5.14it/s]
+100% 91/91 [00:02<00:00, 36.14it/s]
+[epoch 69] train_loss: 0.544  val_accuracy: 0.745
+train epoch[70/100] loss:0.248: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 37.03it/s]
+[epoch 70] train_loss: 0.544  val_accuracy: 0.755
+train epoch[71/100] loss:0.747: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 37.84it/s]
+[epoch 71] train_loss: 0.554  val_accuracy: 0.750
+train epoch[72/100] loss:0.990: 100% 93/93 [00:15<00:00,  5.83it/s]
+100% 91/91 [00:02<00:00, 37.19it/s]
+[epoch 72] train_loss: 0.554  val_accuracy: 0.755
+train epoch[73/100] loss:0.538: 100% 93/93 [00:16<00:00,  5.68it/s]
+100% 91/91 [00:02<00:00, 36.36it/s]
+[epoch 73] train_loss: 0.543  val_accuracy: 0.736
+train epoch[74/100] loss:0.473: 100% 93/93 [00:16<00:00,  5.72it/s]
+100% 91/91 [00:02<00:00, 37.25it/s]
+[epoch 74] train_loss: 0.505  val_accuracy: 0.753
+train epoch[75/100] loss:0.475: 100% 93/93 [00:16<00:00,  5.65it/s]
+100% 91/91 [00:02<00:00, 37.68it/s]
+[epoch 75] train_loss: 0.527  val_accuracy: 0.742
+train epoch[76/100] loss:1.000: 100% 93/93 [00:16<00:00,  5.64it/s]
+100% 91/91 [00:02<00:00, 37.03it/s]
+[epoch 76] train_loss: 0.532  val_accuracy: 0.750
+train epoch[77/100] loss:0.740: 100% 93/93 [00:15<00:00,  5.83it/s]
+100% 91/91 [00:02<00:00, 37.18it/s]
+[epoch 77] train_loss: 0.525  val_accuracy: 0.764
+train epoch[78/100] loss:0.465: 100% 93/93 [00:18<00:00,  5.01it/s]
+100% 91/91 [00:04<00:00, 20.09it/s]
+[epoch 78] train_loss: 0.526  val_accuracy: 0.750
+train epoch[79/100] loss:0.475: 100% 93/93 [00:16<00:00,  5.61it/s]
+100% 91/91 [00:02<00:00, 37.44it/s]
+[epoch 79] train_loss: 0.495  val_accuracy: 0.761
+train epoch[80/100] loss:0.466: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 36.80it/s]
+[epoch 80] train_loss: 0.492  val_accuracy: 0.769
+train epoch[81/100] loss:0.510: 100% 93/93 [00:17<00:00,  5.41it/s]
+100% 91/91 [00:02<00:00, 36.51it/s]
+[epoch 81] train_loss: 0.484  val_accuracy: 0.769
+train epoch[82/100] loss:0.389: 100% 93/93 [00:16<00:00,  5.73it/s]
+100% 91/91 [00:02<00:00, 36.30it/s]
+[epoch 82] train_loss: 0.510  val_accuracy: 0.755
+train epoch[83/100] loss:0.382: 100% 93/93 [00:17<00:00,  5.25it/s]
+100% 91/91 [00:02<00:00, 36.33it/s]
+[epoch 83] train_loss: 0.511  val_accuracy: 0.736
+train epoch[84/100] loss:0.613: 100% 93/93 [00:16<00:00,  5.71it/s]
+100% 91/91 [00:02<00:00, 37.03it/s]
+[epoch 84] train_loss: 0.492  val_accuracy: 0.755
+train epoch[85/100] loss:0.465: 100% 93/93 [00:16<00:00,  5.69it/s]
+100% 91/91 [00:02<00:00, 36.98it/s]
+[epoch 85] train_loss: 0.498  val_accuracy: 0.772
+train epoch[86/100] loss:0.460: 100% 93/93 [00:17<00:00,  5.43it/s]
+100% 91/91 [00:02<00:00, 37.06it/s]
+[epoch 86] train_loss: 0.488  val_accuracy: 0.758
+train epoch[87/100] loss:0.801: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 37.06it/s]
+[epoch 87] train_loss: 0.509  val_accuracy: 0.769
+train epoch[88/100] loss:0.359: 100% 93/93 [00:16<00:00,  5.72it/s]
+100% 91/91 [00:02<00:00, 33.34it/s]
+[epoch 88] train_loss: 0.523  val_accuracy: 0.755
+train epoch[89/100] loss:0.583: 100% 93/93 [00:19<00:00,  4.75it/s]
+100% 91/91 [00:02<00:00, 36.49it/s]
+[epoch 89] train_loss: 0.474  val_accuracy: 0.758
+train epoch[90/100] loss:0.562: 100% 93/93 [00:16<00:00,  5.73it/s]
+100% 91/91 [00:02<00:00, 36.70it/s]
+[epoch 90] train_loss: 0.475  val_accuracy: 0.758
+train epoch[91/100] loss:0.295: 100% 93/93 [00:16<00:00,  5.63it/s]
+100% 91/91 [00:02<00:00, 37.14it/s]
+[epoch 91] train_loss: 0.471  val_accuracy: 0.764
+train epoch[92/100] loss:0.720: 100% 93/93 [00:16<00:00,  5.71it/s]
+100% 91/91 [00:02<00:00, 37.14it/s]
+[epoch 92] train_loss: 0.513  val_accuracy: 0.750
+train epoch[93/100] loss:0.616: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 36.94it/s]
+[epoch 93] train_loss: 0.472  val_accuracy: 0.764
+train epoch[94/100] loss:0.519: 100% 93/93 [00:16<00:00,  5.75it/s]
+100% 91/91 [00:02<00:00, 36.15it/s]
+[epoch 94] train_loss: 0.468  val_accuracy: 0.777
+train epoch[95/100] loss:0.431: 100% 93/93 [00:17<00:00,  5.45it/s]
+100% 91/91 [00:02<00:00, 36.65it/s]
+[epoch 95] train_loss: 0.474  val_accuracy: 0.766
+train epoch[96/100] loss:0.382: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 37.04it/s]
+[epoch 96] train_loss: 0.451  val_accuracy: 0.734
+train epoch[97/100] loss:0.305: 100% 93/93 [00:18<00:00,  5.04it/s]
+100% 91/91 [00:02<00:00, 36.85it/s]
+[epoch 97] train_loss: 0.458  val_accuracy: 0.742
+train epoch[98/100] loss:0.283: 100% 93/93 [00:16<00:00,  5.74it/s]
+100% 91/91 [00:02<00:00, 35.86it/s]
+[epoch 98] train_loss: 0.489  val_accuracy: 0.758
+train epoch[99/100] loss:0.734: 100% 93/93 [00:20<00:00,  4.61it/s]
+100% 91/91 [00:02<00:00, 36.77it/s]
+[epoch 99] train_loss: 0.476  val_accuracy: 0.769
+train epoch[100/100] loss:0.576: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 36.97it/s]
+[epoch 100] train_loss: 0.477  val_accuracy: 0.772
+Finished Training
+
+Start Training： AlexNet_without_conv2 from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Weights...
+Copying conv1.bias Weights...
+Copying conv4.weight Weights...
+Copying conv4.bias Weights...
+Copying conv5.weight Weights...
+Copying conv5.bias Weights...
+Copying fc1.weight Weights...
+Copying fc1.bias Weights...
+Copying fc2.weight Weights...
+Copying fc2.bias Weights...
+Copying fc3.weight Weights...
+Copying fc3.bias Weights...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Unfreeze: conv3a.weight
+Unfreeze: conv3a.bias
+Freeze: conv4.weight
+Freeze: conv4.bias
+Freeze: conv5.weight
+Freeze: conv5.bias
+Unfreeze: fc1.weight
+Unfreeze: fc1.bias
+Unfreeze: fc2.weight
+Unfreeze: fc2.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:1.189: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 40.47it/s]
+[epoch 1] train_loss: 1.199  val_accuracy: 0.618
+train epoch[2/100] loss:0.972: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 40.05it/s]
+[epoch 2] train_loss: 0.981  val_accuracy: 0.706
+train epoch[3/100] loss:1.072: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 39.87it/s]
+[epoch 3] train_loss: 0.912  val_accuracy: 0.673
+train epoch[4/100] loss:1.007: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.85it/s]
+[epoch 4] train_loss: 0.842  val_accuracy: 0.662
+train epoch[5/100] loss:1.196: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 40.88it/s]
+[epoch 5] train_loss: 0.800  val_accuracy: 0.723
+train epoch[6/100] loss:0.873: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 40.38it/s]
+[epoch 6] train_loss: 0.825  val_accuracy: 0.720
+train epoch[7/100] loss:0.936: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 40.09it/s]
+[epoch 7] train_loss: 0.766  val_accuracy: 0.745
+train epoch[8/100] loss:0.407: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 40.82it/s]
+[epoch 8] train_loss: 0.767  val_accuracy: 0.753
+train epoch[9/100] loss:0.721: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:04<00:00, 21.57it/s]
+[epoch 9] train_loss: 0.716  val_accuracy: 0.728
+train epoch[10/100] loss:0.614: 100% 93/93 [00:16<00:00,  5.66it/s]
+100% 91/91 [00:02<00:00, 40.35it/s]
+[epoch 10] train_loss: 0.697  val_accuracy: 0.750
+train epoch[11/100] loss:0.978: 100% 93/93 [00:15<00:00,  6.18it/s]
+100% 91/91 [00:02<00:00, 40.02it/s]
+[epoch 11] train_loss: 0.695  val_accuracy: 0.750
+train epoch[12/100] loss:0.541: 100% 93/93 [00:16<00:00,  5.56it/s]
+100% 91/91 [00:02<00:00, 40.79it/s]
+[epoch 12] train_loss: 0.666  val_accuracy: 0.772
+train epoch[13/100] loss:0.342: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 40.22it/s]
+[epoch 13] train_loss: 0.659  val_accuracy: 0.769
+train epoch[14/100] loss:0.658: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 40.20it/s]
+[epoch 14] train_loss: 0.650  val_accuracy: 0.780
+train epoch[15/100] loss:0.594: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 40.22it/s]
+[epoch 15] train_loss: 0.649  val_accuracy: 0.766
+train epoch[16/100] loss:0.522: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 40.47it/s]
+[epoch 16] train_loss: 0.617  val_accuracy: 0.731
+train epoch[17/100] loss:0.463: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 40.30it/s]
+[epoch 17] train_loss: 0.629  val_accuracy: 0.734
+train epoch[18/100] loss:0.614: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 40.76it/s]
+[epoch 18] train_loss: 0.614  val_accuracy: 0.766
+train epoch[19/100] loss:0.660: 100% 93/93 [00:15<00:00,  6.17it/s]
+100% 91/91 [00:02<00:00, 40.67it/s]
+[epoch 19] train_loss: 0.619  val_accuracy: 0.734
+train epoch[20/100] loss:0.728: 100% 93/93 [00:16<00:00,  5.79it/s]
+100% 91/91 [00:04<00:00, 20.40it/s]
+[epoch 20] train_loss: 0.581  val_accuracy: 0.750
+train epoch[21/100] loss:0.646: 100% 93/93 [00:15<00:00,  5.86it/s]
+100% 91/91 [00:02<00:00, 40.84it/s]
+[epoch 21] train_loss: 0.590  val_accuracy: 0.772
+train epoch[22/100] loss:0.604: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 40.50it/s]
+[epoch 22] train_loss: 0.588  val_accuracy: 0.736
+train epoch[23/100] loss:0.254: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 40.57it/s]
+[epoch 23] train_loss: 0.574  val_accuracy: 0.750
+train epoch[24/100] loss:0.371: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 40.33it/s]
+[epoch 24] train_loss: 0.556  val_accuracy: 0.791
+train epoch[25/100] loss:0.621: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 41.04it/s]
+[epoch 25] train_loss: 0.551  val_accuracy: 0.764
+train epoch[26/100] loss:0.370: 100% 93/93 [00:14<00:00,  6.22it/s]
+100% 91/91 [00:02<00:00, 39.96it/s]
+[epoch 26] train_loss: 0.552  val_accuracy: 0.769
+train epoch[27/100] loss:0.578: 100% 93/93 [00:16<00:00,  5.54it/s]
+100% 91/91 [00:02<00:00, 39.74it/s]
+[epoch 27] train_loss: 0.530  val_accuracy: 0.739
+train epoch[28/100] loss:0.437: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 39.66it/s]
+[epoch 28] train_loss: 0.534  val_accuracy: 0.728
+train epoch[29/100] loss:0.418: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 40.37it/s]
+[epoch 29] train_loss: 0.514  val_accuracy: 0.777
+train epoch[30/100] loss:0.494: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 40.16it/s]
+[epoch 30] train_loss: 0.514  val_accuracy: 0.758
+train epoch[31/100] loss:0.328: 100% 93/93 [00:18<00:00,  4.97it/s]
+100% 91/91 [00:02<00:00, 40.20it/s]
+[epoch 31] train_loss: 0.509  val_accuracy: 0.805
+train epoch[32/100] loss:0.762: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 40.95it/s]
+[epoch 32] train_loss: 0.502  val_accuracy: 0.775
+train epoch[33/100] loss:1.054: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.92it/s]
+[epoch 33] train_loss: 0.515  val_accuracy: 0.777
+train epoch[34/100] loss:0.352: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 40.32it/s]
+[epoch 34] train_loss: 0.520  val_accuracy: 0.758
+train epoch[35/100] loss:0.364: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 40.46it/s]
+[epoch 35] train_loss: 0.499  val_accuracy: 0.753
+train epoch[36/100] loss:0.271: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 40.08it/s]
+[epoch 36] train_loss: 0.503  val_accuracy: 0.775
+train epoch[37/100] loss:0.470: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 40.46it/s]
+[epoch 37] train_loss: 0.453  val_accuracy: 0.786
+train epoch[38/100] loss:0.213: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 39.73it/s]
+[epoch 38] train_loss: 0.467  val_accuracy: 0.775
+train epoch[39/100] loss:0.310: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.89it/s]
+[epoch 39] train_loss: 0.448  val_accuracy: 0.780
+train epoch[40/100] loss:0.619: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 40.68it/s]
+[epoch 40] train_loss: 0.465  val_accuracy: 0.810
+train epoch[41/100] loss:0.434: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 37.06it/s]
+[epoch 41] train_loss: 0.456  val_accuracy: 0.783
+train epoch[42/100] loss:0.625: 100% 93/93 [00:20<00:00,  4.62it/s]
+100% 91/91 [00:02<00:00, 39.86it/s]
+[epoch 42] train_loss: 0.452  val_accuracy: 0.769
+train epoch[43/100] loss:0.789: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 39.73it/s]
+[epoch 43] train_loss: 0.445  val_accuracy: 0.755
+train epoch[44/100] loss:0.299: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 40.44it/s]
+[epoch 44] train_loss: 0.450  val_accuracy: 0.824
+train epoch[45/100] loss:0.181: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 39.78it/s]
+[epoch 45] train_loss: 0.455  val_accuracy: 0.775
+train epoch[46/100] loss:0.343: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.92it/s]
+[epoch 46] train_loss: 0.438  val_accuracy: 0.772
+train epoch[47/100] loss:0.541: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.89it/s]
+[epoch 47] train_loss: 0.430  val_accuracy: 0.786
+train epoch[48/100] loss:0.453: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 40.20it/s]
+[epoch 48] train_loss: 0.409  val_accuracy: 0.775
+train epoch[49/100] loss:0.243: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 40.31it/s]
+[epoch 49] train_loss: 0.455  val_accuracy: 0.805
+train epoch[50/100] loss:0.421: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 40.39it/s]
+[epoch 50] train_loss: 0.429  val_accuracy: 0.775
+train epoch[51/100] loss:0.628: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.48it/s]
+[epoch 51] train_loss: 0.428  val_accuracy: 0.791
+train epoch[52/100] loss:0.417: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 40.01it/s]
+[epoch 52] train_loss: 0.418  val_accuracy: 0.797
+train epoch[53/100] loss:0.407: 100% 93/93 [00:18<00:00,  4.98it/s]
+100% 91/91 [00:02<00:00, 40.62it/s]
+[epoch 53] train_loss: 0.390  val_accuracy: 0.755
+train epoch[54/100] loss:0.514: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 40.34it/s]
+[epoch 54] train_loss: 0.416  val_accuracy: 0.797
+train epoch[55/100] loss:0.214: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.80it/s]
+[epoch 55] train_loss: 0.401  val_accuracy: 0.772
+train epoch[56/100] loss:0.412: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 40.37it/s]
+[epoch 56] train_loss: 0.392  val_accuracy: 0.769
+train epoch[57/100] loss:0.812: 100% 93/93 [00:16<00:00,  5.47it/s]
+100% 91/91 [00:02<00:00, 39.77it/s]
+[epoch 57] train_loss: 0.382  val_accuracy: 0.783
+train epoch[58/100] loss:0.270: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.77it/s]
+[epoch 58] train_loss: 0.377  val_accuracy: 0.780
+train epoch[59/100] loss:0.311: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 40.37it/s]
+[epoch 59] train_loss: 0.383  val_accuracy: 0.799
+train epoch[60/100] loss:0.333: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 39.81it/s]
+[epoch 60] train_loss: 0.381  val_accuracy: 0.780
+train epoch[61/100] loss:0.352: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 40.38it/s]
+[epoch 61] train_loss: 0.352  val_accuracy: 0.777
+train epoch[62/100] loss:0.321: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.86it/s]
+[epoch 62] train_loss: 0.385  val_accuracy: 0.797
+train epoch[63/100] loss:0.152: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 37.05it/s]
+[epoch 63] train_loss: 0.367  val_accuracy: 0.805
+train epoch[64/100] loss:0.397: 100% 93/93 [00:18<00:00,  5.08it/s]
+100% 91/91 [00:02<00:00, 39.59it/s]
+[epoch 64] train_loss: 0.371  val_accuracy: 0.802
+train epoch[65/100] loss:0.238: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 40.74it/s]
+[epoch 65] train_loss: 0.354  val_accuracy: 0.758
+train epoch[66/100] loss:0.272: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 40.18it/s]
+[epoch 66] train_loss: 0.384  val_accuracy: 0.827
+train epoch[67/100] loss:0.380: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 40.38it/s]
+[epoch 67] train_loss: 0.368  val_accuracy: 0.780
+train epoch[68/100] loss:0.321: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 39.91it/s]
+[epoch 68] train_loss: 0.365  val_accuracy: 0.775
+train epoch[69/100] loss:0.615: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.46it/s]
+[epoch 69] train_loss: 0.349  val_accuracy: 0.805
+train epoch[70/100] loss:0.307: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 40.27it/s]
+[epoch 70] train_loss: 0.349  val_accuracy: 0.799
+train epoch[71/100] loss:0.370: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 40.40it/s]
+[epoch 71] train_loss: 0.356  val_accuracy: 0.802
+train epoch[72/100] loss:0.209: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 40.15it/s]
+[epoch 72] train_loss: 0.340  val_accuracy: 0.786
+train epoch[73/100] loss:0.213: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 40.07it/s]
+[epoch 73] train_loss: 0.338  val_accuracy: 0.747
+train epoch[74/100] loss:0.440: 100% 93/93 [00:18<00:00,  5.02it/s]
+100% 91/91 [00:02<00:00, 39.86it/s]
+[epoch 74] train_loss: 0.334  val_accuracy: 0.788
+train epoch[75/100] loss:0.598: 100% 93/93 [00:15<00:00,  6.16it/s]
+100% 91/91 [00:02<00:00, 40.25it/s]
+[epoch 75] train_loss: 0.337  val_accuracy: 0.813
+train epoch[76/100] loss:0.473: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.73it/s]
+[epoch 76] train_loss: 0.345  val_accuracy: 0.772
+train epoch[77/100] loss:0.198: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 40.24it/s]
+[epoch 77] train_loss: 0.348  val_accuracy: 0.777
+train epoch[78/100] loss:0.472: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 40.18it/s]
+[epoch 78] train_loss: 0.327  val_accuracy: 0.788
+train epoch[79/100] loss:0.414: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.93it/s]
+[epoch 79] train_loss: 0.344  val_accuracy: 0.772
+train epoch[80/100] loss:0.460: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 39.91it/s]
+[epoch 80] train_loss: 0.313  val_accuracy: 0.808
+train epoch[81/100] loss:0.324: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 40.67it/s]
+[epoch 81] train_loss: 0.317  val_accuracy: 0.764
+train epoch[82/100] loss:0.484: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.75it/s]
+[epoch 82] train_loss: 0.332  val_accuracy: 0.821
+train epoch[83/100] loss:0.514: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 40.36it/s]
+[epoch 83] train_loss: 0.298  val_accuracy: 0.775
+train epoch[84/100] loss:0.486: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.88it/s]
+[epoch 84] train_loss: 0.337  val_accuracy: 0.805
+train epoch[85/100] loss:0.509: 100% 93/93 [00:18<00:00,  5.01it/s]
+100% 91/91 [00:02<00:00, 39.98it/s]
+[epoch 85] train_loss: 0.305  val_accuracy: 0.808
+train epoch[86/100] loss:0.261: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 40.54it/s]
+[epoch 86] train_loss: 0.291  val_accuracy: 0.810
+train epoch[87/100] loss:0.469: 100% 93/93 [00:16<00:00,  5.51it/s]
+100% 91/91 [00:02<00:00, 40.73it/s]
+[epoch 87] train_loss: 0.300  val_accuracy: 0.788
+train epoch[88/100] loss:0.119: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 39.76it/s]
+[epoch 88] train_loss: 0.308  val_accuracy: 0.766
+train epoch[89/100] loss:0.279: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 40.31it/s]
+[epoch 89] train_loss: 0.296  val_accuracy: 0.786
+train epoch[90/100] loss:0.237: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.93it/s]
+[epoch 90] train_loss: 0.300  val_accuracy: 0.799
+train epoch[91/100] loss:0.164: 100% 93/93 [00:15<00:00,  6.17it/s]
+100% 91/91 [00:02<00:00, 39.46it/s]
+[epoch 91] train_loss: 0.311  val_accuracy: 0.797
+train epoch[92/100] loss:0.215: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.76it/s]
+[epoch 92] train_loss: 0.291  val_accuracy: 0.772
+train epoch[93/100] loss:0.354: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 40.70it/s]
+[epoch 93] train_loss: 0.297  val_accuracy: 0.783
+train epoch[94/100] loss:0.298: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 40.17it/s]
+[epoch 94] train_loss: 0.294  val_accuracy: 0.808
+train epoch[95/100] loss:0.209: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 40.17it/s]
+[epoch 95] train_loss: 0.288  val_accuracy: 0.750
+train epoch[96/100] loss:0.121: 100% 93/93 [00:18<00:00,  4.96it/s]
+100% 91/91 [00:02<00:00, 39.89it/s]
+[epoch 96] train_loss: 0.294  val_accuracy: 0.802
+train epoch[97/100] loss:0.302: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.66it/s]
+[epoch 97] train_loss: 0.305  val_accuracy: 0.799
+train epoch[98/100] loss:0.744: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 40.31it/s]
+[epoch 98] train_loss: 0.290  val_accuracy: 0.819
+train epoch[99/100] loss:0.248: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 40.40it/s]
+[epoch 99] train_loss: 0.289  val_accuracy: 0.794
+train epoch[100/100] loss:0.069: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.75it/s]
+[epoch 100] train_loss: 0.285  val_accuracy: 0.797
+Finished Training
+
+Start Training： AlexNet_without_conv3 from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Weights...
+Copying conv1.bias Weights...
+Copying conv2.weight Weights...
+Copying conv2.bias Weights...
+Copying conv5.weight Weights...
+Copying conv5.bias Weights...
+Copying fc1.weight Weights...
+Copying fc1.bias Weights...
+Copying fc2.weight Weights...
+Copying fc2.bias Weights...
+Copying fc3.weight Weights...
+Copying fc3.bias Weights...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Freeze: conv2.weight
+Freeze: conv2.bias
+Unfreeze: conv4a.weight
+Unfreeze: conv4a.bias
+Freeze: conv5.weight
+Freeze: conv5.bias
+Unfreeze: fc1.weight
+Unfreeze: fc1.bias
+Unfreeze: fc2.weight
+Unfreeze: fc2.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:0.917: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.80it/s]
+[epoch 1] train_loss: 0.909  val_accuracy: 0.720
+train epoch[2/100] loss:0.546: 100% 93/93 [00:16<00:00,  5.81it/s]
+100% 91/91 [00:02<00:00, 40.23it/s]
+[epoch 2] train_loss: 0.654  val_accuracy: 0.777
+train epoch[3/100] loss:0.454: 100% 93/93 [00:16<00:00,  5.78it/s]
+100% 91/91 [00:02<00:00, 39.25it/s]
+[epoch 3] train_loss: 0.569  val_accuracy: 0.747
+train epoch[4/100] loss:0.718: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.24it/s]
+[epoch 4] train_loss: 0.526  val_accuracy: 0.802
+train epoch[5/100] loss:0.291: 100% 93/93 [00:16<00:00,  5.79it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 5] train_loss: 0.507  val_accuracy: 0.766
+train epoch[6/100] loss:0.580: 100% 93/93 [00:17<00:00,  5.47it/s]
+100% 91/91 [00:02<00:00, 39.80it/s]
+[epoch 6] train_loss: 0.510  val_accuracy: 0.797
+train epoch[7/100] loss:0.470: 100% 93/93 [00:15<00:00,  6.20it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 7] train_loss: 0.470  val_accuracy: 0.813
+train epoch[8/100] loss:0.393: 100% 93/93 [00:16<00:00,  5.80it/s]
+100% 91/91 [00:02<00:00, 39.94it/s]
+[epoch 8] train_loss: 0.449  val_accuracy: 0.810
+train epoch[9/100] loss:0.119: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.58it/s]
+[epoch 9] train_loss: 0.462  val_accuracy: 0.810
+train epoch[10/100] loss:0.542: 100% 93/93 [00:15<00:00,  6.16it/s]
+100% 91/91 [00:02<00:00, 39.23it/s]
+[epoch 10] train_loss: 0.428  val_accuracy: 0.821
+train epoch[11/100] loss:0.334: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 39.10it/s]
+[epoch 11] train_loss: 0.419  val_accuracy: 0.824
+train epoch[12/100] loss:0.554: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 12] train_loss: 0.410  val_accuracy: 0.824
+train epoch[13/100] loss:0.370: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 38.64it/s]
+[epoch 13] train_loss: 0.401  val_accuracy: 0.816
+train epoch[14/100] loss:0.358: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.21it/s]
+[epoch 14] train_loss: 0.401  val_accuracy: 0.821
+train epoch[15/100] loss:0.315: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.07it/s]
+[epoch 15] train_loss: 0.363  val_accuracy: 0.808
+train epoch[16/100] loss:0.509: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.04it/s]
+[epoch 16] train_loss: 0.386  val_accuracy: 0.816
+train epoch[17/100] loss:0.300: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.52it/s]
+[epoch 17] train_loss: 0.370  val_accuracy: 0.824
+train epoch[18/100] loss:0.690: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 39.89it/s]
+[epoch 18] train_loss: 0.355  val_accuracy: 0.819
+train epoch[19/100] loss:0.381: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 32.90it/s]
+[epoch 19] train_loss: 0.353  val_accuracy: 0.808
+train epoch[20/100] loss:0.231: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.79it/s]
+[epoch 20] train_loss: 0.350  val_accuracy: 0.835
+train epoch[21/100] loss:0.196: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.65it/s]
+[epoch 21] train_loss: 0.353  val_accuracy: 0.802
+train epoch[22/100] loss:0.483: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.01it/s]
+[epoch 22] train_loss: 0.372  val_accuracy: 0.791
+train epoch[23/100] loss:0.213: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.91it/s]
+[epoch 23] train_loss: 0.350  val_accuracy: 0.827
+train epoch[24/100] loss:0.341: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 39.92it/s]
+[epoch 24] train_loss: 0.317  val_accuracy: 0.832
+train epoch[25/100] loss:0.140: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.31it/s]
+[epoch 25] train_loss: 0.326  val_accuracy: 0.802
+train epoch[26/100] loss:0.101: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 39.41it/s]
+[epoch 26] train_loss: 0.310  val_accuracy: 0.832
+train epoch[27/100] loss:0.182: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.42it/s]
+[epoch 27] train_loss: 0.315  val_accuracy: 0.830
+train epoch[28/100] loss:0.384: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 39.71it/s]
+[epoch 28] train_loss: 0.318  val_accuracy: 0.813
+train epoch[29/100] loss:0.294: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 39.60it/s]
+[epoch 29] train_loss: 0.296  val_accuracy: 0.802
+train epoch[30/100] loss:0.498: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.51it/s]
+[epoch 30] train_loss: 0.296  val_accuracy: 0.841
+train epoch[31/100] loss:0.513: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 39.07it/s]
+[epoch 31] train_loss: 0.323  val_accuracy: 0.827
+train epoch[32/100] loss:0.246: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.72it/s]
+[epoch 32] train_loss: 0.278  val_accuracy: 0.835
+train epoch[33/100] loss:0.371: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 39.59it/s]
+[epoch 33] train_loss: 0.288  val_accuracy: 0.838
+train epoch[34/100] loss:0.374: 100% 93/93 [00:15<00:00,  6.11it/s]
+100% 91/91 [00:02<00:00, 39.53it/s]
+[epoch 34] train_loss: 0.286  val_accuracy: 0.841
+train epoch[35/100] loss:0.176: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.35it/s]
+[epoch 35] train_loss: 0.294  val_accuracy: 0.835
+train epoch[36/100] loss:0.413: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 39.30it/s]
+[epoch 36] train_loss: 0.285  val_accuracy: 0.802
+train epoch[37/100] loss:0.106: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.38it/s]
+[epoch 37] train_loss: 0.282  val_accuracy: 0.827
+train epoch[38/100] loss:0.377: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.54it/s]
+[epoch 38] train_loss: 0.283  val_accuracy: 0.819
+train epoch[39/100] loss:0.273: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 39] train_loss: 0.270  val_accuracy: 0.824
+train epoch[40/100] loss:0.908: 100% 93/93 [00:17<00:00,  5.44it/s]
+100% 91/91 [00:02<00:00, 39.13it/s]
+[epoch 40] train_loss: 0.281  val_accuracy: 0.816
+train epoch[41/100] loss:0.346: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.63it/s]
+[epoch 41] train_loss: 0.274  val_accuracy: 0.821
+train epoch[42/100] loss:0.211: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.79it/s]
+[epoch 42] train_loss: 0.240  val_accuracy: 0.821
+train epoch[43/100] loss:0.155: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.33it/s]
+[epoch 43] train_loss: 0.249  val_accuracy: 0.824
+train epoch[44/100] loss:0.107: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 39.29it/s]
+[epoch 44] train_loss: 0.263  val_accuracy: 0.838
+train epoch[45/100] loss:0.098: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 39.70it/s]
+[epoch 45] train_loss: 0.249  val_accuracy: 0.827
+train epoch[46/100] loss:0.203: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:03<00:00, 27.63it/s]
+[epoch 46] train_loss: 0.257  val_accuracy: 0.838
+train epoch[47/100] loss:0.158: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.16it/s]
+[epoch 47] train_loss: 0.234  val_accuracy: 0.832
+train epoch[48/100] loss:0.415: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 38.65it/s]
+[epoch 48] train_loss: 0.249  val_accuracy: 0.830
+train epoch[49/100] loss:0.115: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.16it/s]
+[epoch 49] train_loss: 0.253  val_accuracy: 0.824
+train epoch[50/100] loss:0.332: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.95it/s]
+[epoch 50] train_loss: 0.244  val_accuracy: 0.816
+train epoch[51/100] loss:0.074: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 40.10it/s]
+[epoch 51] train_loss: 0.245  val_accuracy: 0.832
+train epoch[52/100] loss:0.079: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.64it/s]
+[epoch 52] train_loss: 0.246  val_accuracy: 0.835
+train epoch[53/100] loss:0.441: 100% 93/93 [00:16<00:00,  5.50it/s]
+100% 91/91 [00:02<00:00, 39.27it/s]
+[epoch 53] train_loss: 0.231  val_accuracy: 0.827
+train epoch[54/100] loss:0.374: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.36it/s]
+[epoch 54] train_loss: 0.222  val_accuracy: 0.813
+train epoch[55/100] loss:0.465: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.28it/s]
+[epoch 55] train_loss: 0.225  val_accuracy: 0.830
+train epoch[56/100] loss:0.233: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.26it/s]
+[epoch 56] train_loss: 0.229  val_accuracy: 0.835
+train epoch[57/100] loss:0.358: 100% 93/93 [00:15<00:00,  6.18it/s]
+100% 91/91 [00:02<00:00, 38.69it/s]
+[epoch 57] train_loss: 0.210  val_accuracy: 0.832
+train epoch[58/100] loss:0.237: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.29it/s]
+[epoch 58] train_loss: 0.246  val_accuracy: 0.813
+train epoch[59/100] loss:0.119: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.22it/s]
+[epoch 59] train_loss: 0.245  val_accuracy: 0.824
+train epoch[60/100] loss:0.286: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 39.17it/s]
+[epoch 60] train_loss: 0.215  val_accuracy: 0.824
+train epoch[61/100] loss:0.094: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.64it/s]
+[epoch 61] train_loss: 0.249  val_accuracy: 0.830
+train epoch[62/100] loss:0.621: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 39.25it/s]
+[epoch 62] train_loss: 0.237  val_accuracy: 0.821
+train epoch[63/100] loss:0.410: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 39.93it/s]
+[epoch 63] train_loss: 0.217  val_accuracy: 0.821
+train epoch[64/100] loss:0.091: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.73it/s]
+[epoch 64] train_loss: 0.241  val_accuracy: 0.843
+train epoch[65/100] loss:0.065: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 38.98it/s]
+[epoch 65] train_loss: 0.219  val_accuracy: 0.835
+train epoch[66/100] loss:0.062: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 33.72it/s]
+[epoch 66] train_loss: 0.210  val_accuracy: 0.838
+train epoch[67/100] loss:0.286: 100% 93/93 [00:16<00:00,  5.57it/s]
+100% 91/91 [00:02<00:00, 39.71it/s]
+[epoch 67] train_loss: 0.207  val_accuracy: 0.835
+train epoch[68/100] loss:0.143: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.05it/s]
+[epoch 68] train_loss: 0.210  val_accuracy: 0.830
+train epoch[69/100] loss:0.220: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 40.18it/s]
+[epoch 69] train_loss: 0.209  val_accuracy: 0.827
+train epoch[70/100] loss:0.381: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 38.72it/s]
+[epoch 70] train_loss: 0.220  val_accuracy: 0.838
+train epoch[71/100] loss:0.279: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.38it/s]
+[epoch 71] train_loss: 0.211  val_accuracy: 0.830
+train epoch[72/100] loss:0.511: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.05it/s]
+[epoch 72] train_loss: 0.210  val_accuracy: 0.819
+train epoch[73/100] loss:0.157: 100% 93/93 [00:16<00:00,  5.47it/s]
+100% 91/91 [00:02<00:00, 39.77it/s]
+[epoch 73] train_loss: 0.224  val_accuracy: 0.835
+train epoch[74/100] loss:0.029: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.78it/s]
+[epoch 74] train_loss: 0.212  val_accuracy: 0.827
+train epoch[75/100] loss:0.583: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.82it/s]
+[epoch 75] train_loss: 0.199  val_accuracy: 0.821
+train epoch[76/100] loss:0.085: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.63it/s]
+[epoch 76] train_loss: 0.201  val_accuracy: 0.816
+train epoch[77/100] loss:0.079: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.98it/s]
+[epoch 77] train_loss: 0.219  val_accuracy: 0.824
+train epoch[78/100] loss:0.340: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 39.57it/s]
+[epoch 78] train_loss: 0.211  val_accuracy: 0.830
+train epoch[79/100] loss:0.306: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.53it/s]
+[epoch 79] train_loss: 0.198  val_accuracy: 0.830
+train epoch[80/100] loss:0.104: 100% 93/93 [00:16<00:00,  5.52it/s]
+100% 91/91 [00:02<00:00, 38.37it/s]
+[epoch 80] train_loss: 0.207  val_accuracy: 0.832
+train epoch[81/100] loss:0.263: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 38.88it/s]
+[epoch 81] train_loss: 0.190  val_accuracy: 0.832
+train epoch[82/100] loss:0.167: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.15it/s]
+[epoch 82] train_loss: 0.213  val_accuracy: 0.841
+train epoch[83/100] loss:0.278: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.11it/s]
+[epoch 83] train_loss: 0.202  val_accuracy: 0.821
+train epoch[84/100] loss:0.202: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 84] train_loss: 0.207  val_accuracy: 0.838
+train epoch[85/100] loss:0.360: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.41it/s]
+[epoch 85] train_loss: 0.183  val_accuracy: 0.830
+train epoch[86/100] loss:0.068: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:03<00:00, 29.10it/s]
+[epoch 86] train_loss: 0.195  val_accuracy: 0.832
+train epoch[87/100] loss:0.242: 100% 93/93 [00:16<00:00,  5.72it/s]
+100% 91/91 [00:02<00:00, 39.52it/s]
+[epoch 87] train_loss: 0.190  val_accuracy: 0.824
+train epoch[88/100] loss:0.696: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 39.21it/s]
+[epoch 88] train_loss: 0.205  val_accuracy: 0.838
+train epoch[89/100] loss:0.399: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 38.70it/s]
+[epoch 89] train_loss: 0.207  val_accuracy: 0.832
+train epoch[90/100] loss:0.082: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.87it/s]
+[epoch 90] train_loss: 0.207  val_accuracy: 0.819
+train epoch[91/100] loss:0.048: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.83it/s]
+[epoch 91] train_loss: 0.182  val_accuracy: 0.827
+train epoch[92/100] loss:0.037: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 38.80it/s]
+[epoch 92] train_loss: 0.178  val_accuracy: 0.827
+train epoch[93/100] loss:0.134: 100% 93/93 [00:16<00:00,  5.57it/s]
+100% 91/91 [00:02<00:00, 39.50it/s]
+[epoch 93] train_loss: 0.172  val_accuracy: 0.832
+train epoch[94/100] loss:0.030: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.59it/s]
+[epoch 94] train_loss: 0.181  val_accuracy: 0.835
+train epoch[95/100] loss:0.256: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.43it/s]
+[epoch 95] train_loss: 0.179  val_accuracy: 0.843
+train epoch[96/100] loss:0.180: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.51it/s]
+[epoch 96] train_loss: 0.188  val_accuracy: 0.821
+train epoch[97/100] loss:0.074: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.82it/s]
+[epoch 97] train_loss: 0.181  val_accuracy: 0.830
+train epoch[98/100] loss:0.154: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.42it/s]
+[epoch 98] train_loss: 0.180  val_accuracy: 0.819
+train epoch[99/100] loss:0.198: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 39.00it/s]
+[epoch 99] train_loss: 0.214  val_accuracy: 0.827
+train epoch[100/100] loss:0.104: 100% 93/93 [00:17<00:00,  5.46it/s]
+100% 91/91 [00:02<00:00, 39.65it/s]
+[epoch 100] train_loss: 0.182  val_accuracy: 0.832
+Finished Training
+
+Start Training： AlexNet_without_conv4 from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Weights...
+Copying conv1.bias Weights...
+Copying conv2.weight Weights...
+Copying conv2.bias Weights...
+Copying conv3.weight Weights...
+Copying conv3.bias Weights...
+Copying fc1.weight Weights...
+Copying fc1.bias Weights...
+Copying fc2.weight Weights...
+Copying fc2.bias Weights...
+Copying fc3.weight Weights...
+Copying fc3.bias Weights...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Freeze: conv2.weight
+Freeze: conv2.bias
+Freeze: conv3.weight
+Freeze: conv3.bias
+Unfreeze: conv5a.weight
+Unfreeze: conv5a.bias
+Unfreeze: fc1.weight
+Unfreeze: fc1.bias
+Unfreeze: fc2.weight
+Unfreeze: fc2.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:0.417: 100% 93/93 [00:16<00:00,  5.81it/s]
+100% 91/91 [00:02<00:00, 39.83it/s]
+[epoch 1] train_loss: 0.780  val_accuracy: 0.797
+train epoch[2/100] loss:0.917: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.11it/s]
+[epoch 2] train_loss: 0.475  val_accuracy: 0.835
+train epoch[3/100] loss:0.933: 100% 93/93 [00:16<00:00,  5.81it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 3] train_loss: 0.407  val_accuracy: 0.816
+train epoch[4/100] loss:0.192: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 39.65it/s]
+[epoch 4] train_loss: 0.377  val_accuracy: 0.830
+train epoch[5/100] loss:0.053: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 39.43it/s]
+[epoch 5] train_loss: 0.321  val_accuracy: 0.827
+train epoch[6/100] loss:0.160: 100% 93/93 [00:17<00:00,  5.45it/s]
+100% 91/91 [00:02<00:00, 39.57it/s]
+[epoch 6] train_loss: 0.328  val_accuracy: 0.821
+train epoch[7/100] loss:0.322: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.35it/s]
+[epoch 7] train_loss: 0.315  val_accuracy: 0.849
+train epoch[8/100] loss:0.160: 100% 93/93 [00:15<00:00,  5.81it/s]
+100% 91/91 [00:02<00:00, 39.27it/s]
+[epoch 8] train_loss: 0.307  val_accuracy: 0.854
+train epoch[9/100] loss:0.376: 100% 93/93 [00:16<00:00,  5.80it/s]
+100% 91/91 [00:02<00:00, 39.75it/s]
+[epoch 9] train_loss: 0.291  val_accuracy: 0.838
+train epoch[10/100] loss:0.316: 100% 93/93 [00:15<00:00,  6.15it/s]
+100% 91/91 [00:02<00:00, 39.30it/s]
+[epoch 10] train_loss: 0.292  val_accuracy: 0.841
+train epoch[11/100] loss:0.370: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 11] train_loss: 0.283  val_accuracy: 0.832
+train epoch[12/100] loss:0.270: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.22it/s]
+[epoch 12] train_loss: 0.276  val_accuracy: 0.819
+train epoch[13/100] loss:0.311: 100% 93/93 [00:17<00:00,  5.42it/s]
+100% 91/91 [00:02<00:00, 39.32it/s]
+[epoch 13] train_loss: 0.268  val_accuracy: 0.846
+train epoch[14/100] loss:0.357: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.36it/s]
+[epoch 14] train_loss: 0.238  val_accuracy: 0.835
+train epoch[15/100] loss:0.239: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.16it/s]
+[epoch 15] train_loss: 0.247  val_accuracy: 0.841
+train epoch[16/100] loss:0.253: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.91it/s]
+[epoch 16] train_loss: 0.227  val_accuracy: 0.821
+train epoch[17/100] loss:0.205: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 39.42it/s]
+[epoch 17] train_loss: 0.268  val_accuracy: 0.810
+train epoch[18/100] loss:0.262: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.36it/s]
+[epoch 18] train_loss: 0.243  val_accuracy: 0.821
+train epoch[19/100] loss:0.095: 100% 93/93 [00:16<00:00,  5.61it/s]
+100% 91/91 [00:02<00:00, 39.18it/s]
+[epoch 19] train_loss: 0.254  val_accuracy: 0.827
+train epoch[20/100] loss:0.428: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 38.88it/s]
+[epoch 20] train_loss: 0.233  val_accuracy: 0.832
+train epoch[21/100] loss:0.277: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 39.71it/s]
+[epoch 21] train_loss: 0.240  val_accuracy: 0.827
+train epoch[22/100] loss:0.057: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.35it/s]
+[epoch 22] train_loss: 0.226  val_accuracy: 0.821
+train epoch[23/100] loss:0.160: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.15it/s]
+[epoch 23] train_loss: 0.208  val_accuracy: 0.843
+train epoch[24/100] loss:0.059: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 39.29it/s]
+[epoch 24] train_loss: 0.221  val_accuracy: 0.846
+train epoch[25/100] loss:0.236: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.38it/s]
+[epoch 25] train_loss: 0.218  val_accuracy: 0.843
+train epoch[26/100] loss:0.156: 100% 93/93 [00:17<00:00,  5.45it/s]
+100% 91/91 [00:02<00:00, 39.32it/s]
+[epoch 26] train_loss: 0.224  val_accuracy: 0.838
+train epoch[27/100] loss:0.296: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.52it/s]
+[epoch 27] train_loss: 0.218  val_accuracy: 0.832
+train epoch[28/100] loss:0.179: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.30it/s]
+[epoch 28] train_loss: 0.212  val_accuracy: 0.832
+train epoch[29/100] loss:0.255: 100% 93/93 [00:15<00:00,  6.14it/s]
+100% 91/91 [00:02<00:00, 38.81it/s]
+[epoch 29] train_loss: 0.220  val_accuracy: 0.821
+train epoch[30/100] loss:0.076: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 30] train_loss: 0.215  val_accuracy: 0.835
+train epoch[31/100] loss:0.250: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 39.40it/s]
+[epoch 31] train_loss: 0.204  val_accuracy: 0.841
+train epoch[32/100] loss:0.188: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 39.50it/s]
+[epoch 32] train_loss: 0.222  val_accuracy: 0.846
+train epoch[33/100] loss:0.302: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 38.61it/s]
+[epoch 33] train_loss: 0.208  val_accuracy: 0.863
+train epoch[34/100] loss:0.189: 100% 93/93 [00:16<00:00,  5.72it/s]
+100% 91/91 [00:02<00:00, 39.41it/s]
+[epoch 34] train_loss: 0.220  val_accuracy: 0.835
+train epoch[35/100] loss:0.096: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 39.22it/s]
+[epoch 35] train_loss: 0.194  val_accuracy: 0.846
+train epoch[36/100] loss:0.066: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 39.16it/s]
+[epoch 36] train_loss: 0.190  val_accuracy: 0.838
+train epoch[37/100] loss:0.229: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 37] train_loss: 0.198  val_accuracy: 0.857
+train epoch[38/100] loss:0.370: 100% 93/93 [00:15<00:00,  6.11it/s]
+100% 91/91 [00:02<00:00, 39.53it/s]
+[epoch 38] train_loss: 0.207  val_accuracy: 0.835
+train epoch[39/100] loss:0.523: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 39.12it/s]
+[epoch 39] train_loss: 0.190  val_accuracy: 0.857
+train epoch[40/100] loss:0.227: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 39.15it/s]
+[epoch 40] train_loss: 0.183  val_accuracy: 0.849
+train epoch[41/100] loss:0.156: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 38.17it/s]
+[epoch 41] train_loss: 0.193  val_accuracy: 0.854
+train epoch[42/100] loss:0.056: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 42] train_loss: 0.211  val_accuracy: 0.827
+train epoch[43/100] loss:0.282: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.12it/s]
+[epoch 43] train_loss: 0.201  val_accuracy: 0.841
+train epoch[44/100] loss:0.069: 100% 93/93 [00:15<00:00,  6.15it/s]
+100% 91/91 [00:02<00:00, 39.64it/s]
+[epoch 44] train_loss: 0.176  val_accuracy: 0.832
+train epoch[45/100] loss:0.142: 100% 93/93 [00:17<00:00,  5.47it/s]
+100% 91/91 [00:02<00:00, 39.30it/s]
+[epoch 45] train_loss: 0.183  val_accuracy: 0.841
+train epoch[46/100] loss:0.146: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 38.63it/s]
+[epoch 46] train_loss: 0.196  val_accuracy: 0.841
+train epoch[47/100] loss:0.230: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.19it/s]
+[epoch 47] train_loss: 0.172  val_accuracy: 0.852
+train epoch[48/100] loss:0.150: 100% 93/93 [00:15<00:00,  5.87it/s]
+100% 91/91 [00:02<00:00, 39.24it/s]
+[epoch 48] train_loss: 0.197  val_accuracy: 0.849
+train epoch[49/100] loss:0.032: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.59it/s]
+[epoch 49] train_loss: 0.175  val_accuracy: 0.832
+train epoch[50/100] loss:0.051: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 38.51it/s]
+[epoch 50] train_loss: 0.196  val_accuracy: 0.843
+train epoch[51/100] loss:0.111: 100% 93/93 [00:15<00:00,  5.87it/s]
+100% 91/91 [00:02<00:00, 38.66it/s]
+[epoch 51] train_loss: 0.215  val_accuracy: 0.832
+train epoch[52/100] loss:0.155: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 39.39it/s]
+[epoch 52] train_loss: 0.185  val_accuracy: 0.832
+train epoch[53/100] loss:0.120: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 38.56it/s]
+[epoch 53] train_loss: 0.167  val_accuracy: 0.843
+train epoch[54/100] loss:0.150: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.75it/s]
+[epoch 54] train_loss: 0.171  val_accuracy: 0.841
+train epoch[55/100] loss:0.107: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.35it/s]
+[epoch 55] train_loss: 0.187  val_accuracy: 0.852
+train epoch[56/100] loss:0.147: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.89it/s]
+[epoch 56] train_loss: 0.171  val_accuracy: 0.860
+train epoch[57/100] loss:0.166: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 57] train_loss: 0.175  val_accuracy: 0.854
+train epoch[58/100] loss:0.039: 100% 93/93 [00:17<00:00,  5.45it/s]
+100% 91/91 [00:02<00:00, 39.10it/s]
+[epoch 58] train_loss: 0.173  val_accuracy: 0.849
+train epoch[59/100] loss:0.268: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.23it/s]
+[epoch 59] train_loss: 0.168  val_accuracy: 0.846
+train epoch[60/100] loss:0.247: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 38.66it/s]
+[epoch 60] train_loss: 0.176  val_accuracy: 0.843
+train epoch[61/100] loss:0.340: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.87it/s]
+[epoch 61] train_loss: 0.174  val_accuracy: 0.846
+train epoch[62/100] loss:0.142: 100% 93/93 [00:15<00:00,  6.14it/s]
+100% 91/91 [00:02<00:00, 39.97it/s]
+[epoch 62] train_loss: 0.155  val_accuracy: 0.852
+train epoch[63/100] loss:0.523: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 39.35it/s]
+[epoch 63] train_loss: 0.175  val_accuracy: 0.846
+train epoch[64/100] loss:0.209: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 37.02it/s]
+[epoch 64] train_loss: 0.171  val_accuracy: 0.838
+train epoch[65/100] loss:0.231: 100% 93/93 [00:16<00:00,  5.50it/s]
+100% 91/91 [00:02<00:00, 38.57it/s]
+[epoch 65] train_loss: 0.153  val_accuracy: 0.835
+train epoch[66/100] loss:0.108: 100% 93/93 [00:15<00:00,  6.11it/s]
+100% 91/91 [00:02<00:00, 38.99it/s]
+[epoch 66] train_loss: 0.148  val_accuracy: 0.846
+train epoch[67/100] loss:0.176: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.83it/s]
+[epoch 67] train_loss: 0.172  val_accuracy: 0.854
+train epoch[68/100] loss:0.036: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.97it/s]
+[epoch 68] train_loss: 0.149  val_accuracy: 0.860
+train epoch[69/100] loss:0.060: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 39.08it/s]
+[epoch 69] train_loss: 0.173  val_accuracy: 0.854
+train epoch[70/100] loss:0.065: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.06it/s]
+[epoch 70] train_loss: 0.147  val_accuracy: 0.841
+train epoch[71/100] loss:0.096: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 39.46it/s]
+[epoch 71] train_loss: 0.154  val_accuracy: 0.852
+train epoch[72/100] loss:0.255: 100% 93/93 [00:15<00:00,  6.12it/s]
+100% 91/91 [00:02<00:00, 39.05it/s]
+[epoch 72] train_loss: 0.162  val_accuracy: 0.841
+train epoch[73/100] loss:0.173: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.28it/s]
+[epoch 73] train_loss: 0.174  val_accuracy: 0.835
+train epoch[74/100] loss:0.411: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 40.04it/s]
+[epoch 74] train_loss: 0.163  val_accuracy: 0.854
+train epoch[75/100] loss:0.045: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.90it/s]
+[epoch 75] train_loss: 0.160  val_accuracy: 0.843
+train epoch[76/100] loss:0.032: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.25it/s]
+[epoch 76] train_loss: 0.159  val_accuracy: 0.852
+train epoch[77/100] loss:0.126: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:03<00:00, 23.88it/s]
+[epoch 77] train_loss: 0.125  val_accuracy: 0.841
+train epoch[78/100] loss:0.334: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.67it/s]
+[epoch 78] train_loss: 0.146  val_accuracy: 0.849
+train epoch[79/100] loss:0.046: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.70it/s]
+[epoch 79] train_loss: 0.150  val_accuracy: 0.854
+train epoch[80/100] loss:0.260: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 39.03it/s]
+[epoch 80] train_loss: 0.167  val_accuracy: 0.846
+train epoch[81/100] loss:0.106: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.19it/s]
+[epoch 81] train_loss: 0.162  val_accuracy: 0.846
+train epoch[82/100] loss:0.025: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.54it/s]
+[epoch 82] train_loss: 0.142  val_accuracy: 0.838
+train epoch[83/100] loss:0.051: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.74it/s]
+[epoch 83] train_loss: 0.141  val_accuracy: 0.849
+train epoch[84/100] loss:0.278: 100% 93/93 [00:16<00:00,  5.48it/s]
+100% 91/91 [00:02<00:00, 39.39it/s]
+[epoch 84] train_loss: 0.164  val_accuracy: 0.854
+train epoch[85/100] loss:0.255: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.82it/s]
+[epoch 85] train_loss: 0.144  val_accuracy: 0.843
+train epoch[86/100] loss:0.027: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.43it/s]
+[epoch 86] train_loss: 0.150  val_accuracy: 0.841
+train epoch[87/100] loss:0.191: 100% 93/93 [00:15<00:00,  6.14it/s]
+100% 91/91 [00:02<00:00, 39.02it/s]
+[epoch 87] train_loss: 0.153  val_accuracy: 0.863
+train epoch[88/100] loss:0.207: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.36it/s]
+[epoch 88] train_loss: 0.150  val_accuracy: 0.865
+train epoch[89/100] loss:0.025: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.72it/s]
+[epoch 89] train_loss: 0.166  val_accuracy: 0.846
+train epoch[90/100] loss:0.282: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:03<00:00, 30.18it/s]
+[epoch 90] train_loss: 0.139  val_accuracy: 0.838
+train epoch[91/100] loss:0.031: 100% 93/93 [00:15<00:00,  6.09it/s]
+100% 91/91 [00:02<00:00, 39.49it/s]
+[epoch 91] train_loss: 0.137  val_accuracy: 0.857
+train epoch[92/100] loss:0.023: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 38.82it/s]
+[epoch 92] train_loss: 0.118  val_accuracy: 0.849
+train epoch[93/100] loss:0.126: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 39.51it/s]
+[epoch 93] train_loss: 0.144  val_accuracy: 0.838
+train epoch[94/100] loss:0.313: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.38it/s]
+[epoch 94] train_loss: 0.146  val_accuracy: 0.841
+train epoch[95/100] loss:0.201: 100% 93/93 [00:15<00:00,  6.08it/s]
+100% 91/91 [00:02<00:00, 39.85it/s]
+[epoch 95] train_loss: 0.145  val_accuracy: 0.852
+train epoch[96/100] loss:0.210: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.87it/s]
+[epoch 96] train_loss: 0.124  val_accuracy: 0.841
+train epoch[97/100] loss:0.097: 100% 93/93 [00:16<00:00,  5.56it/s]
+100% 91/91 [00:02<00:00, 39.34it/s]
+[epoch 97] train_loss: 0.146  val_accuracy: 0.846
+train epoch[98/100] loss:0.013: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 39.09it/s]
+[epoch 98] train_loss: 0.137  val_accuracy: 0.854
+train epoch[99/100] loss:0.010: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.45it/s]
+[epoch 99] train_loss: 0.123  val_accuracy: 0.843
+train epoch[100/100] loss:0.004: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.75it/s]
+[epoch 100] train_loss: 0.134  val_accuracy: 0.841
+Finished Training
+
+Start Training： AlexNet_without_conv5 from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Weights...
+Copying conv1.bias Weights...
+Copying conv2.weight Weights...
+Copying conv2.bias Weights...
+Copying conv3.weight Weights...
+Copying conv3.bias Weights...
+Copying conv4.weight Weights...
+Copying conv4.bias Weights...
+Copying fc1.weight Weights...
+Copying fc1.bias Weights...
+Copying fc2.weight Weights...
+Copying fc2.bias Weights...
+Copying fc3.weight Weights...
+Copying fc3.bias Weights...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Freeze: conv2.weight
+Freeze: conv2.bias
+Freeze: conv3.weight
+Freeze: conv3.bias
+Freeze: conv4.weight
+Freeze: conv4.bias
+Unfreeze: conv6.weight
+Unfreeze: conv6.bias
+Unfreeze: fc1.weight
+Unfreeze: fc1.bias
+Unfreeze: fc2.weight
+Unfreeze: fc2.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:0.349: 100% 93/93 [00:16<00:00,  5.75it/s]
+100% 91/91 [00:02<00:00, 38.68it/s]
+[epoch 1] train_loss: 0.767  val_accuracy: 0.813
+train epoch[2/100] loss:0.715: 100% 93/93 [00:16<00:00,  5.70it/s]
+100% 91/91 [00:02<00:00, 38.17it/s]
+[epoch 2] train_loss: 0.413  val_accuracy: 0.810
+train epoch[3/100] loss:0.115: 100% 93/93 [00:16<00:00,  5.51it/s]
+100% 91/91 [00:02<00:00, 38.72it/s]
+[epoch 3] train_loss: 0.372  val_accuracy: 0.835
+train epoch[4/100] loss:0.226: 100% 93/93 [00:16<00:00,  5.71it/s]
+100% 91/91 [00:02<00:00, 38.94it/s]
+[epoch 4] train_loss: 0.335  val_accuracy: 0.835
+train epoch[5/100] loss:0.546: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.81it/s]
+[epoch 5] train_loss: 0.311  val_accuracy: 0.827
+train epoch[6/100] loss:0.196: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.63it/s]
+[epoch 6] train_loss: 0.311  val_accuracy: 0.843
+train epoch[7/100] loss:0.225: 100% 93/93 [00:15<00:00,  5.82it/s]
+100% 91/91 [00:02<00:00, 37.92it/s]
+[epoch 7] train_loss: 0.272  val_accuracy: 0.838
+train epoch[8/100] loss:0.353: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 39.24it/s]
+[epoch 8] train_loss: 0.291  val_accuracy: 0.835
+train epoch[9/100] loss:0.095: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:03<00:00, 25.86it/s]
+[epoch 9] train_loss: 0.303  val_accuracy: 0.838
+train epoch[10/100] loss:0.595: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.81it/s]
+[epoch 10] train_loss: 0.273  val_accuracy: 0.841
+train epoch[11/100] loss:0.213: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.88it/s]
+[epoch 11] train_loss: 0.287  val_accuracy: 0.843
+train epoch[12/100] loss:0.425: 100% 93/93 [00:15<00:00,  6.11it/s]
+100% 91/91 [00:02<00:00, 39.05it/s]
+[epoch 12] train_loss: 0.277  val_accuracy: 0.849
+train epoch[13/100] loss:0.560: 100% 93/93 [00:16<00:00,  5.75it/s]
+100% 91/91 [00:02<00:00, 38.09it/s]
+[epoch 13] train_loss: 0.280  val_accuracy: 0.846
+train epoch[14/100] loss:0.095: 100% 93/93 [00:15<00:00,  5.83it/s]
+100% 91/91 [00:02<00:00, 36.88it/s]
+[epoch 14] train_loss: 0.254  val_accuracy: 0.852
+train epoch[15/100] loss:0.107: 100% 93/93 [00:16<00:00,  5.68it/s]
+100% 91/91 [00:02<00:00, 37.29it/s]
+[epoch 15] train_loss: 0.259  val_accuracy: 0.846
+train epoch[16/100] loss:0.415: 100% 93/93 [00:17<00:00,  5.39it/s]
+100% 91/91 [00:02<00:00, 38.55it/s]
+[epoch 16] train_loss: 0.250  val_accuracy: 0.849
+train epoch[17/100] loss:0.228: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.53it/s]
+[epoch 17] train_loss: 0.246  val_accuracy: 0.846
+train epoch[18/100] loss:0.042: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 38.47it/s]
+[epoch 18] train_loss: 0.250  val_accuracy: 0.849
+train epoch[19/100] loss:0.297: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.96it/s]
+[epoch 19] train_loss: 0.255  val_accuracy: 0.852
+train epoch[20/100] loss:0.355: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 39.33it/s]
+[epoch 20] train_loss: 0.249  val_accuracy: 0.835
+train epoch[21/100] loss:0.213: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 38.82it/s]
+[epoch 21] train_loss: 0.237  val_accuracy: 0.816
+train epoch[22/100] loss:0.064: 100% 93/93 [00:16<00:00,  5.50it/s]
+100% 91/91 [00:02<00:00, 38.32it/s]
+[epoch 22] train_loss: 0.246  val_accuracy: 0.843
+train epoch[23/100] loss:0.175: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 38.63it/s]
+[epoch 23] train_loss: 0.247  val_accuracy: 0.838
+train epoch[24/100] loss:0.181: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 39.03it/s]
+[epoch 24] train_loss: 0.254  val_accuracy: 0.849
+train epoch[25/100] loss:0.095: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 38.87it/s]
+[epoch 25] train_loss: 0.241  val_accuracy: 0.857
+train epoch[26/100] loss:0.249: 100% 93/93 [00:16<00:00,  5.80it/s]
+100% 91/91 [00:02<00:00, 38.87it/s]
+[epoch 26] train_loss: 0.245  val_accuracy: 0.824
+train epoch[27/100] loss:0.153: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 38.81it/s]
+[epoch 27] train_loss: 0.216  val_accuracy: 0.846
+train epoch[28/100] loss:0.189: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 39.18it/s]
+[epoch 28] train_loss: 0.209  val_accuracy: 0.854
+train epoch[29/100] loss:0.200: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.48it/s]
+[epoch 29] train_loss: 0.243  val_accuracy: 0.835
+train epoch[30/100] loss:0.211: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 38.79it/s]
+[epoch 30] train_loss: 0.249  val_accuracy: 0.841
+train epoch[31/100] loss:0.250: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.12it/s]
+[epoch 31] train_loss: 0.228  val_accuracy: 0.841
+train epoch[32/100] loss:0.032: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.79it/s]
+[epoch 32] train_loss: 0.234  val_accuracy: 0.849
+train epoch[33/100] loss:0.297: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 38.34it/s]
+[epoch 33] train_loss: 0.224  val_accuracy: 0.849
+train epoch[34/100] loss:0.127: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:03<00:00, 23.52it/s]
+[epoch 34] train_loss: 0.235  val_accuracy: 0.852
+train epoch[35/100] loss:0.167: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 38.85it/s]
+[epoch 35] train_loss: 0.231  val_accuracy: 0.852
+train epoch[36/100] loss:0.485: 100% 93/93 [00:15<00:00,  5.82it/s]
+100% 91/91 [00:02<00:00, 38.80it/s]
+[epoch 36] train_loss: 0.244  val_accuracy: 0.846
+train epoch[37/100] loss:0.337: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 38.92it/s]
+[epoch 37] train_loss: 0.212  val_accuracy: 0.843
+train epoch[38/100] loss:0.347: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 38.81it/s]
+[epoch 38] train_loss: 0.237  val_accuracy: 0.835
+train epoch[39/100] loss:0.334: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.28it/s]
+[epoch 39] train_loss: 0.217  val_accuracy: 0.843
+train epoch[40/100] loss:0.597: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 38.33it/s]
+[epoch 40] train_loss: 0.203  val_accuracy: 0.849
+train epoch[41/100] loss:0.174: 100% 93/93 [00:17<00:00,  5.46it/s]
+100% 91/91 [00:02<00:00, 38.72it/s]
+[epoch 41] train_loss: 0.221  val_accuracy: 0.830
+train epoch[42/100] loss:0.129: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.11it/s]
+[epoch 42] train_loss: 0.199  val_accuracy: 0.841
+train epoch[43/100] loss:0.150: 100% 93/93 [00:15<00:00,  6.00it/s]
+100% 91/91 [00:02<00:00, 38.78it/s]
+[epoch 43] train_loss: 0.196  val_accuracy: 0.841
+train epoch[44/100] loss:0.134: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 38.76it/s]
+[epoch 44] train_loss: 0.210  val_accuracy: 0.835
+train epoch[45/100] loss:0.140: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.83it/s]
+[epoch 45] train_loss: 0.232  val_accuracy: 0.838
+train epoch[46/100] loss:0.143: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 38.78it/s]
+[epoch 46] train_loss: 0.222  val_accuracy: 0.838
+train epoch[47/100] loss:0.552: 100% 93/93 [00:17<00:00,  5.46it/s]
+100% 91/91 [00:02<00:00, 38.43it/s]
+[epoch 47] train_loss: 0.216  val_accuracy: 0.838
+train epoch[48/100] loss:0.247: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 35.98it/s]
+[epoch 48] train_loss: 0.208  val_accuracy: 0.846
+train epoch[49/100] loss:0.217: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 38.67it/s]
+[epoch 49] train_loss: 0.213  val_accuracy: 0.849
+train epoch[50/100] loss:0.310: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 39.01it/s]
+[epoch 50] train_loss: 0.212  val_accuracy: 0.835
+train epoch[51/100] loss:0.121: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 37.52it/s]
+[epoch 51] train_loss: 0.215  val_accuracy: 0.849
+train epoch[52/100] loss:0.135: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.85it/s]
+[epoch 52] train_loss: 0.197  val_accuracy: 0.841
+train epoch[53/100] loss:0.154: 100% 93/93 [00:17<00:00,  5.46it/s]
+100% 91/91 [00:02<00:00, 38.25it/s]
+[epoch 53] train_loss: 0.210  val_accuracy: 0.835
+train epoch[54/100] loss:0.063: 100% 93/93 [00:15<00:00,  5.87it/s]
+100% 91/91 [00:02<00:00, 35.68it/s]
+[epoch 54] train_loss: 0.202  val_accuracy: 0.843
+train epoch[55/100] loss:0.250: 100% 93/93 [00:15<00:00,  5.87it/s]
+100% 91/91 [00:02<00:00, 39.15it/s]
+[epoch 55] train_loss: 0.200  val_accuracy: 0.843
+train epoch[56/100] loss:0.036: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 38.14it/s]
+[epoch 56] train_loss: 0.206  val_accuracy: 0.838
+train epoch[57/100] loss:0.332: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 38.67it/s]
+[epoch 57] train_loss: 0.205  val_accuracy: 0.827
+train epoch[58/100] loss:0.021: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 36.28it/s]
+[epoch 58] train_loss: 0.216  val_accuracy: 0.846
+train epoch[59/100] loss:0.055: 100% 93/93 [00:17<00:00,  5.40it/s]
+100% 91/91 [00:02<00:00, 39.05it/s]
+[epoch 59] train_loss: 0.198  val_accuracy: 0.841
+train epoch[60/100] loss:0.099: 100% 93/93 [00:15<00:00,  6.02it/s]
+100% 91/91 [00:02<00:00, 38.30it/s]
+[epoch 60] train_loss: 0.202  val_accuracy: 0.843
+train epoch[61/100] loss:0.244: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 35.43it/s]
+[epoch 61] train_loss: 0.209  val_accuracy: 0.843
+train epoch[62/100] loss:0.078: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 39.00it/s]
+[epoch 62] train_loss: 0.200  val_accuracy: 0.838
+train epoch[63/100] loss:0.133: 100% 93/93 [00:15<00:00,  5.85it/s]
+100% 91/91 [00:02<00:00, 36.09it/s]
+[epoch 63] train_loss: 0.205  val_accuracy: 0.841
+train epoch[64/100] loss:0.115: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 37.95it/s]
+[epoch 64] train_loss: 0.194  val_accuracy: 0.860
+train epoch[65/100] loss:0.070: 100% 93/93 [00:17<00:00,  5.41it/s]
+100% 91/91 [00:02<00:00, 34.61it/s]
+[epoch 65] train_loss: 0.199  val_accuracy: 0.838
+train epoch[66/100] loss:0.264: 100% 93/93 [00:16<00:00,  5.76it/s]
+100% 91/91 [00:02<00:00, 38.14it/s]
+[epoch 66] train_loss: 0.219  val_accuracy: 0.838
+train epoch[67/100] loss:0.124: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 39.32it/s]
+[epoch 67] train_loss: 0.215  val_accuracy: 0.860
+train epoch[68/100] loss:0.089: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 38.66it/s]
+[epoch 68] train_loss: 0.191  val_accuracy: 0.846
+train epoch[69/100] loss:0.078: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 38.09it/s]
+[epoch 69] train_loss: 0.176  val_accuracy: 0.846
+train epoch[70/100] loss:0.149: 100% 93/93 [00:15<00:00,  5.86it/s]
+100% 91/91 [00:02<00:00, 39.34it/s]
+[epoch 70] train_loss: 0.201  val_accuracy: 0.841
+train epoch[71/100] loss:0.035: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 30.83it/s]
+[epoch 71] train_loss: 0.192  val_accuracy: 0.838
+train epoch[72/100] loss:0.183: 100% 93/93 [00:16<00:00,  5.61it/s]
+100% 91/91 [00:02<00:00, 38.58it/s]
+[epoch 72] train_loss: 0.189  val_accuracy: 0.830
+train epoch[73/100] loss:0.091: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 38.51it/s]
+[epoch 73] train_loss: 0.193  val_accuracy: 0.832
+train epoch[74/100] loss:0.034: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 38.76it/s]
+[epoch 74] train_loss: 0.194  val_accuracy: 0.838
+train epoch[75/100] loss:0.374: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.34it/s]
+[epoch 75] train_loss: 0.186  val_accuracy: 0.838
+train epoch[76/100] loss:0.138: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 39.07it/s]
+[epoch 76] train_loss: 0.190  val_accuracy: 0.827
+train epoch[77/100] loss:0.062: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 35.79it/s]
+[epoch 77] train_loss: 0.194  val_accuracy: 0.830
+train epoch[78/100] loss:0.303: 100% 93/93 [00:17<00:00,  5.36it/s]
+100% 91/91 [00:02<00:00, 39.22it/s]
+[epoch 78] train_loss: 0.190  val_accuracy: 0.843
+train epoch[79/100] loss:0.421: 100% 93/93 [00:15<00:00,  6.04it/s]
+100% 91/91 [00:02<00:00, 38.60it/s]
+[epoch 79] train_loss: 0.186  val_accuracy: 0.841
+train epoch[80/100] loss:0.215: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 39.02it/s]
+[epoch 80] train_loss: 0.197  val_accuracy: 0.830
+train epoch[81/100] loss:0.154: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 38.79it/s]
+[epoch 81] train_loss: 0.203  val_accuracy: 0.838
+train epoch[82/100] loss:0.251: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.04it/s]
+[epoch 82] train_loss: 0.181  val_accuracy: 0.827
+train epoch[83/100] loss:0.279: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.56it/s]
+[epoch 83] train_loss: 0.170  val_accuracy: 0.835
+train epoch[84/100] loss:0.190: 100% 93/93 [00:16<00:00,  5.49it/s]
+100% 91/91 [00:02<00:00, 38.14it/s]
+[epoch 84] train_loss: 0.175  val_accuracy: 0.835
+train epoch[85/100] loss:0.252: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 39.10it/s]
+[epoch 85] train_loss: 0.173  val_accuracy: 0.821
+train epoch[86/100] loss:0.416: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 38.32it/s]
+[epoch 86] train_loss: 0.178  val_accuracy: 0.830
+train epoch[87/100] loss:0.406: 100% 93/93 [00:15<00:00,  5.95it/s]
+100% 91/91 [00:02<00:00, 39.21it/s]
+[epoch 87] train_loss: 0.170  val_accuracy: 0.827
+train epoch[88/100] loss:0.344: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 38.90it/s]
+[epoch 88] train_loss: 0.176  val_accuracy: 0.838
+train epoch[89/100] loss:0.105: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.77it/s]
+[epoch 89] train_loss: 0.178  val_accuracy: 0.830
+train epoch[90/100] loss:0.328: 100% 93/93 [00:16<00:00,  5.53it/s]
+100% 91/91 [00:02<00:00, 38.90it/s]
+[epoch 90] train_loss: 0.196  val_accuracy: 0.838
+train epoch[91/100] loss:0.074: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 38.40it/s]
+[epoch 91] train_loss: 0.194  val_accuracy: 0.846
+train epoch[92/100] loss:0.026: 100% 93/93 [00:15<00:00,  6.01it/s]
+100% 91/91 [00:02<00:00, 39.10it/s]
+[epoch 92] train_loss: 0.197  val_accuracy: 0.843
+train epoch[93/100] loss:0.104: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 38.33it/s]
+[epoch 93] train_loss: 0.169  val_accuracy: 0.832
+train epoch[94/100] loss:0.285: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 38.40it/s]
+[epoch 94] train_loss: 0.181  val_accuracy: 0.830
+train epoch[95/100] loss:0.107: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 38.64it/s]
+[epoch 95] train_loss: 0.184  val_accuracy: 0.843
+train epoch[96/100] loss:0.181: 100% 93/93 [00:17<00:00,  5.42it/s]
+100% 91/91 [00:02<00:00, 38.57it/s]
+[epoch 96] train_loss: 0.155  val_accuracy: 0.838
+train epoch[97/100] loss:0.128: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 38.80it/s]
+[epoch 97] train_loss: 0.175  val_accuracy: 0.821
+train epoch[98/100] loss:0.121: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 38.96it/s]
+[epoch 98] train_loss: 0.177  val_accuracy: 0.841
+train epoch[99/100] loss:0.072: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 38.85it/s]
+[epoch 99] train_loss: 0.182  val_accuracy: 0.830
+train epoch[100/100] loss:0.100: 100% 93/93 [00:15<00:00,  5.89it/s]
+100% 91/91 [00:02<00:00, 39.41it/s]
+[epoch 100] train_loss: 0.177  val_accuracy: 0.838
+Finished Training
+
+Training Scheduled:  ['AlexNet_without_BothFC@AlexNet.pth', 'AlexNet_Extreme@AlexNet.pth']
+Start Training： AlexNet_without_BothFC from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Data...
+Copying conv1.bias Data...
+Copying conv2.weight Data...
+Copying conv2.bias Data...
+Copying conv3.weight Data...
+Copying conv3.bias Data...
+Copying conv4.weight Data...
+Copying conv4.bias Data...
+Copying conv5.weight Data...
+Copying conv5.bias Data...
+Copying fc3.weight Data...
+Copying fc3.bias Data...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Freeze: conv2.weight
+Freeze: conv2.bias
+Freeze: conv3.weight
+Freeze: conv3.bias
+Freeze: conv4.weight
+Freeze: conv4.bias
+Freeze: conv5.weight
+Freeze: conv5.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:0.841: 100% 93/93 [00:15<00:00,  5.84it/s]
+100% 91/91 [00:02<00:00, 43.36it/s]
+[epoch 1] train_loss: 1.154  val_accuracy: 0.824
+train epoch[2/100] loss:0.674: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 43.56it/s]
+[epoch 2] train_loss: 0.744  val_accuracy: 0.838
+train epoch[3/100] loss:0.628: 100% 93/93 [00:14<00:00,  6.64it/s]
+100% 91/91 [00:02<00:00, 43.16it/s]
+[epoch 3] train_loss: 0.595  val_accuracy: 0.838
+train epoch[4/100] loss:0.456: 100% 93/93 [00:13<00:00,  6.77it/s]
+100% 91/91 [00:02<00:00, 44.25it/s]
+[epoch 4] train_loss: 0.516  val_accuracy: 0.841
+train epoch[5/100] loss:0.556: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.58it/s]
+[epoch 5] train_loss: 0.466  val_accuracy: 0.843
+train epoch[6/100] loss:0.433: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 43.42it/s]
+[epoch 6] train_loss: 0.438  val_accuracy: 0.849
+train epoch[7/100] loss:0.340: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 44.08it/s]
+[epoch 7] train_loss: 0.416  val_accuracy: 0.849
+train epoch[8/100] loss:0.410: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 33.59it/s]
+[epoch 8] train_loss: 0.397  val_accuracy: 0.857
+train epoch[9/100] loss:0.283: 100% 93/93 [00:14<00:00,  6.32it/s]
+100% 91/91 [00:02<00:00, 44.29it/s]
+[epoch 9] train_loss: 0.378  val_accuracy: 0.860
+train epoch[10/100] loss:0.358: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 44.27it/s]
+[epoch 10] train_loss: 0.363  val_accuracy: 0.857
+train epoch[11/100] loss:0.278: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 43.22it/s]
+[epoch 11] train_loss: 0.341  val_accuracy: 0.860
+train epoch[12/100] loss:0.280: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.53it/s]
+[epoch 12] train_loss: 0.340  val_accuracy: 0.860
+train epoch[13/100] loss:0.094: 100% 93/93 [00:13<00:00,  6.75it/s]
+100% 91/91 [00:02<00:00, 43.36it/s]
+[epoch 13] train_loss: 0.342  val_accuracy: 0.857
+train epoch[14/100] loss:0.490: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.97it/s]
+[epoch 14] train_loss: 0.340  val_accuracy: 0.860
+train epoch[15/100] loss:0.312: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 43.74it/s]
+[epoch 15] train_loss: 0.316  val_accuracy: 0.860
+train epoch[16/100] loss:0.317: 100% 93/93 [00:14<00:00,  6.64it/s]
+100% 91/91 [00:02<00:00, 43.55it/s]
+[epoch 16] train_loss: 0.312  val_accuracy: 0.854
+train epoch[17/100] loss:0.192: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.78it/s]
+[epoch 17] train_loss: 0.302  val_accuracy: 0.854
+train epoch[18/100] loss:0.358: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 44.11it/s]
+[epoch 18] train_loss: 0.303  val_accuracy: 0.852
+train epoch[19/100] loss:0.311: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 44.21it/s]
+[epoch 19] train_loss: 0.296  val_accuracy: 0.854
+train epoch[20/100] loss:0.399: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 44.18it/s]
+[epoch 20] train_loss: 0.291  val_accuracy: 0.852
+train epoch[21/100] loss:0.173: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 42.86it/s]
+[epoch 21] train_loss: 0.290  val_accuracy: 0.852
+train epoch[22/100] loss:0.405: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 43.57it/s]
+[epoch 22] train_loss: 0.298  val_accuracy: 0.854
+train epoch[23/100] loss:0.237: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.78it/s]
+[epoch 23] train_loss: 0.305  val_accuracy: 0.854
+train epoch[24/100] loss:0.179: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.61it/s]
+[epoch 24] train_loss: 0.291  val_accuracy: 0.854
+train epoch[25/100] loss:0.218: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.43it/s]
+[epoch 25] train_loss: 0.297  val_accuracy: 0.854
+train epoch[26/100] loss:0.377: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.08it/s]
+[epoch 26] train_loss: 0.293  val_accuracy: 0.857
+train epoch[27/100] loss:0.194: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.29it/s]
+[epoch 27] train_loss: 0.292  val_accuracy: 0.857
+train epoch[28/100] loss:0.270: 100% 93/93 [00:15<00:00,  6.10it/s]
+100% 91/91 [00:02<00:00, 43.49it/s]
+[epoch 28] train_loss: 0.290  val_accuracy: 0.854
+train epoch[29/100] loss:0.382: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.57it/s]
+[epoch 29] train_loss: 0.274  val_accuracy: 0.854
+train epoch[30/100] loss:0.210: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.25it/s]
+[epoch 30] train_loss: 0.289  val_accuracy: 0.857
+train epoch[31/100] loss:0.247: 100% 93/93 [00:14<00:00,  6.64it/s]
+100% 91/91 [00:02<00:00, 43.38it/s]
+[epoch 31] train_loss: 0.286  val_accuracy: 0.854
+train epoch[32/100] loss:0.187: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.47it/s]
+[epoch 32] train_loss: 0.268  val_accuracy: 0.857
+train epoch[33/100] loss:0.137: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.99it/s]
+[epoch 33] train_loss: 0.282  val_accuracy: 0.857
+train epoch[34/100] loss:0.066: 100% 93/93 [00:13<00:00,  6.74it/s]
+100% 91/91 [00:02<00:00, 43.93it/s]
+[epoch 34] train_loss: 0.266  val_accuracy: 0.857
+train epoch[35/100] loss:0.424: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 43.86it/s]
+[epoch 35] train_loss: 0.272  val_accuracy: 0.860
+train epoch[36/100] loss:0.127: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 43.03it/s]
+[epoch 36] train_loss: 0.265  val_accuracy: 0.857
+train epoch[37/100] loss:0.416: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 44.04it/s]
+[epoch 37] train_loss: 0.262  val_accuracy: 0.857
+train epoch[38/100] loss:0.426: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 44.19it/s]
+[epoch 38] train_loss: 0.278  val_accuracy: 0.860
+train epoch[39/100] loss:0.138: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.55it/s]
+[epoch 39] train_loss: 0.264  val_accuracy: 0.860
+train epoch[40/100] loss:0.084: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.75it/s]
+[epoch 40] train_loss: 0.261  val_accuracy: 0.860
+train epoch[41/100] loss:0.322: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 42.42it/s]
+[epoch 41] train_loss: 0.256  val_accuracy: 0.863
+train epoch[42/100] loss:0.271: 100% 93/93 [00:13<00:00,  6.65it/s]
+100% 91/91 [00:02<00:00, 43.91it/s]
+[epoch 42] train_loss: 0.257  val_accuracy: 0.863
+train epoch[43/100] loss:0.422: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.94it/s]
+[epoch 43] train_loss: 0.269  val_accuracy: 0.860
+train epoch[44/100] loss:0.215: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 44.08it/s]
+[epoch 44] train_loss: 0.278  val_accuracy: 0.865
+train epoch[45/100] loss:0.213: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 44.06it/s]
+[epoch 45] train_loss: 0.255  val_accuracy: 0.865
+train epoch[46/100] loss:0.499: 100% 93/93 [00:13<00:00,  6.65it/s]
+100% 91/91 [00:02<00:00, 43.56it/s]
+[epoch 46] train_loss: 0.257  val_accuracy: 0.863
+train epoch[47/100] loss:0.154: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 43.85it/s]
+[epoch 47] train_loss: 0.265  val_accuracy: 0.860
+train epoch[48/100] loss:0.142: 100% 93/93 [00:15<00:00,  6.07it/s]
+100% 91/91 [00:02<00:00, 44.04it/s]
+[epoch 48] train_loss: 0.262  val_accuracy: 0.860
+train epoch[49/100] loss:0.141: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.64it/s]
+[epoch 49] train_loss: 0.236  val_accuracy: 0.860
+train epoch[50/100] loss:0.546: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.80it/s]
+[epoch 50] train_loss: 0.271  val_accuracy: 0.863
+train epoch[51/100] loss:0.418: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 43.68it/s]
+[epoch 51] train_loss: 0.271  val_accuracy: 0.860
+train epoch[52/100] loss:0.144: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 43.94it/s]
+[epoch 52] train_loss: 0.236  val_accuracy: 0.860
+train epoch[53/100] loss:0.073: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 43.70it/s]
+[epoch 53] train_loss: 0.265  val_accuracy: 0.860
+train epoch[54/100] loss:0.116: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 43.76it/s]
+[epoch 54] train_loss: 0.256  val_accuracy: 0.860
+train epoch[55/100] loss:0.196: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 43.78it/s]
+[epoch 55] train_loss: 0.236  val_accuracy: 0.860
+train epoch[56/100] loss:0.231: 100% 93/93 [00:13<00:00,  6.65it/s]
+100% 91/91 [00:02<00:00, 43.02it/s]
+[epoch 56] train_loss: 0.239  val_accuracy: 0.863
+train epoch[57/100] loss:0.201: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 44.24it/s]
+[epoch 57] train_loss: 0.266  val_accuracy: 0.863
+train epoch[58/100] loss:0.206: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.31it/s]
+[epoch 58] train_loss: 0.245  val_accuracy: 0.863
+train epoch[59/100] loss:0.351: 100% 93/93 [00:13<00:00,  6.74it/s]
+100% 91/91 [00:02<00:00, 42.87it/s]
+[epoch 59] train_loss: 0.253  val_accuracy: 0.863
+train epoch[60/100] loss:0.169: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 42.36it/s]
+[epoch 60] train_loss: 0.272  val_accuracy: 0.857
+train epoch[61/100] loss:0.186: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 44.00it/s]
+[epoch 61] train_loss: 0.256  val_accuracy: 0.863
+train epoch[62/100] loss:0.504: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.69it/s]
+[epoch 62] train_loss: 0.274  val_accuracy: 0.860
+train epoch[63/100] loss:0.124: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.85it/s]
+[epoch 63] train_loss: 0.258  val_accuracy: 0.860
+train epoch[64/100] loss:0.295: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.41it/s]
+[epoch 64] train_loss: 0.264  val_accuracy: 0.860
+train epoch[65/100] loss:0.415: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 43.83it/s]
+[epoch 65] train_loss: 0.250  val_accuracy: 0.860
+train epoch[66/100] loss:0.245: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 43.80it/s]
+[epoch 66] train_loss: 0.243  val_accuracy: 0.863
+train epoch[67/100] loss:0.140: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 43.23it/s]
+[epoch 67] train_loss: 0.232  val_accuracy: 0.860
+train epoch[68/100] loss:0.229: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 44.52it/s]
+[epoch 68] train_loss: 0.255  val_accuracy: 0.860
+train epoch[69/100] loss:0.352: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 43.75it/s]
+[epoch 69] train_loss: 0.248  val_accuracy: 0.860
+train epoch[70/100] loss:0.418: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 44.17it/s]
+[epoch 70] train_loss: 0.256  val_accuracy: 0.857
+train epoch[71/100] loss:0.340: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 42.68it/s]
+[epoch 71] train_loss: 0.236  val_accuracy: 0.860
+train epoch[72/100] loss:0.293: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.99it/s]
+[epoch 72] train_loss: 0.250  val_accuracy: 0.854
+train epoch[73/100] loss:0.092: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 43.36it/s]
+[epoch 73] train_loss: 0.255  val_accuracy: 0.857
+train epoch[74/100] loss:0.156: 100% 93/93 [00:15<00:00,  6.13it/s]
+100% 91/91 [00:02<00:00, 43.94it/s]
+[epoch 74] train_loss: 0.255  val_accuracy: 0.857
+train epoch[75/100] loss:0.192: 100% 93/93 [00:14<00:00,  6.62it/s]
+100% 91/91 [00:02<00:00, 44.38it/s]
+[epoch 75] train_loss: 0.252  val_accuracy: 0.852
+train epoch[76/100] loss:0.486: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 43.51it/s]
+[epoch 76] train_loss: 0.246  val_accuracy: 0.860
+train epoch[77/100] loss:0.367: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 44.03it/s]
+[epoch 77] train_loss: 0.249  val_accuracy: 0.854
+train epoch[78/100] loss:0.561: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 43.21it/s]
+[epoch 78] train_loss: 0.251  val_accuracy: 0.857
+train epoch[79/100] loss:0.294: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 44.05it/s]
+[epoch 79] train_loss: 0.258  val_accuracy: 0.860
+train epoch[80/100] loss:0.209: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 44.28it/s]
+[epoch 80] train_loss: 0.274  val_accuracy: 0.854
+train epoch[81/100] loss:0.061: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 43.89it/s]
+[epoch 81] train_loss: 0.238  val_accuracy: 0.852
+train epoch[82/100] loss:0.108: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.53it/s]
+[epoch 82] train_loss: 0.240  val_accuracy: 0.852
+train epoch[83/100] loss:0.288: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 44.00it/s]
+[epoch 83] train_loss: 0.241  val_accuracy: 0.854
+train epoch[84/100] loss:0.128: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 44.11it/s]
+[epoch 84] train_loss: 0.243  val_accuracy: 0.854
+train epoch[85/100] loss:0.168: 100% 93/93 [00:13<00:00,  6.74it/s]
+100% 91/91 [00:02<00:00, 44.17it/s]
+[epoch 85] train_loss: 0.255  val_accuracy: 0.854
+train epoch[86/100] loss:0.247: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:03<00:00, 27.25it/s]
+[epoch 86] train_loss: 0.256  val_accuracy: 0.854
+train epoch[87/100] loss:0.315: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 44.07it/s]
+[epoch 87] train_loss: 0.239  val_accuracy: 0.852
+train epoch[88/100] loss:0.165: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 43.85it/s]
+[epoch 88] train_loss: 0.254  val_accuracy: 0.852
+train epoch[89/100] loss:0.313: 100% 93/93 [00:13<00:00,  6.72it/s]
+100% 91/91 [00:02<00:00, 44.22it/s]
+[epoch 89] train_loss: 0.236  val_accuracy: 0.854
+train epoch[90/100] loss:0.263: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.78it/s]
+[epoch 90] train_loss: 0.252  val_accuracy: 0.857
+train epoch[91/100] loss:0.339: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 43.21it/s]
+[epoch 91] train_loss: 0.260  val_accuracy: 0.857
+train epoch[92/100] loss:0.110: 100% 93/93 [00:13<00:00,  6.68it/s]
+100% 91/91 [00:02<00:00, 44.01it/s]
+[epoch 92] train_loss: 0.236  val_accuracy: 0.852
+train epoch[93/100] loss:0.329: 100% 93/93 [00:15<00:00,  6.06it/s]
+100% 91/91 [00:02<00:00, 44.36it/s]
+[epoch 93] train_loss: 0.247  val_accuracy: 0.852
+train epoch[94/100] loss:0.127: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.60it/s]
+[epoch 94] train_loss: 0.228  val_accuracy: 0.852
+train epoch[95/100] loss:0.310: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 42.98it/s]
+[epoch 95] train_loss: 0.235  val_accuracy: 0.852
+train epoch[96/100] loss:0.162: 100% 93/93 [00:13<00:00,  6.69it/s]
+100% 91/91 [00:02<00:00, 43.53it/s]
+[epoch 96] train_loss: 0.237  val_accuracy: 0.857
+train epoch[97/100] loss:0.172: 100% 93/93 [00:13<00:00,  6.73it/s]
+100% 91/91 [00:02<00:00, 44.27it/s]
+[epoch 97] train_loss: 0.233  val_accuracy: 0.857
+train epoch[98/100] loss:0.074: 100% 93/93 [00:13<00:00,  6.71it/s]
+100% 91/91 [00:02<00:00, 43.66it/s]
+[epoch 98] train_loss: 0.248  val_accuracy: 0.857
+train epoch[99/100] loss:0.156: 100% 93/93 [00:15<00:00,  6.05it/s]
+100% 91/91 [00:02<00:00, 43.59it/s]
+[epoch 99] train_loss: 0.242  val_accuracy: 0.857
+train epoch[100/100] loss:0.192: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 43.45it/s]
+[epoch 100] train_loss: 0.231  val_accuracy: 0.857
+Finished Training
+
+Start Training： AlexNet_Extreme from AlexNet.pth
+using cuda:0 device.
+Using 2 dataloader workers every process
+using 2966 images for training, 364 images for validation.
+Copying conv1.weight Data...
+Copying conv1.bias Data...
+Copying fc3.weight Data...
+Copying fc3.bias Data...
+Freeze: conv1.weight
+Freeze: conv1.bias
+Unfreeze: fc3.weight
+Unfreeze: fc3.bias
+train epoch[1/100] loss:0.768: 100% 93/93 [00:14<00:00,  6.46it/s]
+100% 91/91 [00:02<00:00, 45.27it/s]
+[epoch 1] train_loss: 1.294  val_accuracy: 0.580
+train epoch[2/100] loss:1.119: 100% 93/93 [00:13<00:00,  6.70it/s]
+100% 91/91 [00:02<00:00, 45.03it/s]
+[epoch 2] train_loss: 1.177  val_accuracy: 0.618
+train epoch[3/100] loss:1.610: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 45.45it/s]
+[epoch 3] train_loss: 1.139  val_accuracy: 0.610
+train epoch[4/100] loss:1.115: 100% 93/93 [00:13<00:00,  6.65it/s]
+100% 91/91 [00:02<00:00, 44.82it/s]
+[epoch 4] train_loss: 1.182  val_accuracy: 0.610
+train epoch[5/100] loss:0.781: 100% 93/93 [00:13<00:00,  6.66it/s]
+100% 91/91 [00:02<00:00, 44.53it/s]
+[epoch 5] train_loss: 1.082  val_accuracy: 0.643
+train epoch[6/100] loss:1.154: 100% 93/93 [00:15<00:00,  5.99it/s]
+100% 91/91 [00:02<00:00, 44.82it/s]
+[epoch 6] train_loss: 1.050  val_accuracy: 0.676
+train epoch[7/100] loss:1.061: 100% 93/93 [00:14<00:00,  6.63it/s]
+100% 91/91 [00:02<00:00, 45.22it/s]
+[epoch 7] train_loss: 1.106  val_accuracy: 0.593
+train epoch[8/100] loss:0.822: 100% 93/93 [00:13<00:00,  6.67it/s]
+100% 91/91 [00:02<00:00, 44.94it/s]
+[epoch 8] train_loss: 1.026  val_accuracy: 0.662
+train epoch[9/100] loss:1.165: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 45.15it/s]
+[epoch 9] train_loss: 1.034  val_accuracy: 0.646
+train epoch[10/100] loss:1.219: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 45.19it/s]
+[epoch 10] train_loss: 1.081  val_accuracy: 0.635
+train epoch[11/100] loss:0.874: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 45.05it/s]
+[epoch 11] train_loss: 1.022  val_accuracy: 0.657
+train epoch[12/100] loss:1.169: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 44.01it/s]
+[epoch 12] train_loss: 1.141  val_accuracy: 0.698
+train epoch[13/100] loss:1.114: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 44.60it/s]
+[epoch 13] train_loss: 1.037  val_accuracy: 0.654
+train epoch[14/100] loss:0.699: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 45.26it/s]
+[epoch 14] train_loss: 1.086  val_accuracy: 0.651
+train epoch[15/100] loss:1.205: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 45.45it/s]
+[epoch 15] train_loss: 1.067  val_accuracy: 0.665
+train epoch[16/100] loss:1.071: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 45.28it/s]
+[epoch 16] train_loss: 1.031  val_accuracy: 0.629
+train epoch[17/100] loss:0.918: 100% 93/93 [00:14<00:00,  6.61it/s]
+100% 91/91 [00:02<00:00, 44.64it/s]
+[epoch 17] train_loss: 1.019  val_accuracy: 0.654
+train epoch[18/100] loss:0.993: 100% 93/93 [00:15<00:00,  5.97it/s]
+100% 91/91 [00:02<00:00, 45.27it/s]
+[epoch 18] train_loss: 1.062  val_accuracy: 0.676
+train epoch[19/100] loss:0.974: 100% 93/93 [00:14<00:00,  6.62it/s]
+100% 91/91 [00:02<00:00, 45.10it/s]
+[epoch 19] train_loss: 1.061  val_accuracy: 0.673
+train epoch[20/100] loss:1.076: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 44.72it/s]
+[epoch 20] train_loss: 1.006  val_accuracy: 0.632
+train epoch[21/100] loss:1.288: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 45.15it/s]
+[epoch 21] train_loss: 1.037  val_accuracy: 0.670
+train epoch[22/100] loss:1.000: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 44.68it/s]
+[epoch 22] train_loss: 1.085  val_accuracy: 0.714
+train epoch[23/100] loss:0.845: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 45.24it/s]
+[epoch 23] train_loss: 0.965  val_accuracy: 0.687
+train epoch[24/100] loss:0.962: 100% 93/93 [00:14<00:00,  6.62it/s]
+100% 91/91 [00:02<00:00, 33.06it/s]
+[epoch 24] train_loss: 1.025  val_accuracy: 0.684
+train epoch[25/100] loss:0.937: 100% 93/93 [00:14<00:00,  6.28it/s]
+100% 91/91 [00:02<00:00, 44.53it/s]
+[epoch 25] train_loss: 0.994  val_accuracy: 0.665
+train epoch[26/100] loss:0.729: 100% 93/93 [00:14<00:00,  6.51it/s]
+100% 91/91 [00:02<00:00, 45.44it/s]
+[epoch 26] train_loss: 0.981  val_accuracy: 0.648
+train epoch[27/100] loss:0.783: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 45.16it/s]
+[epoch 27] train_loss: 1.056  val_accuracy: 0.668
+train epoch[28/100] loss:1.622: 100% 93/93 [00:14<00:00,  6.62it/s]
+100% 91/91 [00:02<00:00, 45.18it/s]
+[epoch 28] train_loss: 1.030  val_accuracy: 0.681
+train epoch[29/100] loss:1.105: 100% 93/93 [00:14<00:00,  6.64it/s]
+100% 91/91 [00:02<00:00, 43.96it/s]
+[epoch 29] train_loss: 1.059  val_accuracy: 0.681
+train epoch[30/100] loss:0.745: 100% 93/93 [00:14<00:00,  6.61it/s]
+100% 91/91 [00:02<00:00, 44.28it/s]
+[epoch 30] train_loss: 1.052  val_accuracy: 0.679
+train epoch[31/100] loss:1.103: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 44.99it/s]
+[epoch 31] train_loss: 1.047  val_accuracy: 0.698
+train epoch[32/100] loss:0.403: 100% 93/93 [00:14<00:00,  6.61it/s]
+100% 91/91 [00:02<00:00, 44.65it/s]
+[epoch 32] train_loss: 1.035  val_accuracy: 0.723
+train epoch[33/100] loss:1.308: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 44.76it/s]
+[epoch 33] train_loss: 0.980  val_accuracy: 0.706
+train epoch[34/100] loss:1.262: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 44.94it/s]
+[epoch 34] train_loss: 1.080  val_accuracy: 0.574
+train epoch[35/100] loss:1.828: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 44.21it/s]
+[epoch 35] train_loss: 1.066  val_accuracy: 0.659
+train epoch[36/100] loss:0.556: 100% 93/93 [00:14<00:00,  6.54it/s]
+100% 91/91 [00:02<00:00, 45.07it/s]
+[epoch 36] train_loss: 0.987  val_accuracy: 0.687
+train epoch[37/100] loss:1.723: 100% 93/93 [00:15<00:00,  5.93it/s]
+100% 91/91 [00:02<00:00, 45.09it/s]
+[epoch 37] train_loss: 1.051  val_accuracy: 0.673
+train epoch[38/100] loss:1.098: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 45.05it/s]
+[epoch 38] train_loss: 1.003  val_accuracy: 0.643
+train epoch[39/100] loss:1.293: 100% 93/93 [00:14<00:00,  6.54it/s]
+100% 91/91 [00:02<00:00, 45.32it/s]
+[epoch 39] train_loss: 1.078  val_accuracy: 0.695
+train epoch[40/100] loss:1.175: 100% 93/93 [00:14<00:00,  6.60it/s]
+100% 91/91 [00:02<00:00, 44.18it/s]
+[epoch 40] train_loss: 1.002  val_accuracy: 0.659
+train epoch[41/100] loss:0.722: 100% 93/93 [00:14<00:00,  6.54it/s]
+100% 91/91 [00:02<00:00, 44.67it/s]
+[epoch 41] train_loss: 0.945  val_accuracy: 0.665
+train epoch[42/100] loss:1.138: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 45.48it/s]
+[epoch 42] train_loss: 0.978  val_accuracy: 0.659
+train epoch[43/100] loss:0.744: 100% 93/93 [00:15<00:00,  5.96it/s]
+100% 91/91 [00:02<00:00, 44.37it/s]
+[epoch 43] train_loss: 0.986  val_accuracy: 0.684
+train epoch[44/100] loss:0.567: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 44.78it/s]
+[epoch 44] train_loss: 1.002  val_accuracy: 0.648
+train epoch[45/100] loss:0.745: 100% 93/93 [00:14<00:00,  6.52it/s]
+100% 91/91 [00:02<00:00, 44.60it/s]
+[epoch 45] train_loss: 1.008  val_accuracy: 0.665
+train epoch[46/100] loss:1.185: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 45.15it/s]
+[epoch 46] train_loss: 0.946  val_accuracy: 0.673
+train epoch[47/100] loss:0.699: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 45.31it/s]
+[epoch 47] train_loss: 1.043  val_accuracy: 0.648
+train epoch[48/100] loss:1.340: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 45.29it/s]
+[epoch 48] train_loss: 1.033  val_accuracy: 0.604
+train epoch[49/100] loss:1.165: 100% 93/93 [00:15<00:00,  6.03it/s]
+100% 91/91 [00:02<00:00, 43.34it/s]
+[epoch 49] train_loss: 0.995  val_accuracy: 0.701
+train epoch[50/100] loss:1.198: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 44.26it/s]
+[epoch 50] train_loss: 0.983  val_accuracy: 0.657
+train epoch[51/100] loss:0.708: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:01<00:00, 45.58it/s]
+[epoch 51] train_loss: 1.007  val_accuracy: 0.709
+train epoch[52/100] loss:1.255: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 45.30it/s]
+[epoch 52] train_loss: 1.035  val_accuracy: 0.681
+train epoch[53/100] loss:0.616: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:01<00:00, 45.53it/s]
+[epoch 53] train_loss: 0.984  val_accuracy: 0.676
+train epoch[54/100] loss:1.316: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 44.92it/s]
+[epoch 54] train_loss: 0.942  val_accuracy: 0.706
+train epoch[55/100] loss:0.529: 100% 93/93 [00:14<00:00,  6.54it/s]
+100% 91/91 [00:02<00:00, 43.78it/s]
+[epoch 55] train_loss: 0.967  val_accuracy: 0.701
+train epoch[56/100] loss:1.357: 100% 93/93 [00:15<00:00,  5.91it/s]
+100% 91/91 [00:02<00:00, 44.89it/s]
+[epoch 56] train_loss: 1.015  val_accuracy: 0.695
+train epoch[57/100] loss:1.504: 100% 93/93 [00:14<00:00,  6.63it/s]
+100% 91/91 [00:02<00:00, 44.63it/s]
+[epoch 57] train_loss: 1.016  val_accuracy: 0.676
+train epoch[58/100] loss:1.581: 100% 93/93 [00:14<00:00,  6.61it/s]
+100% 91/91 [00:02<00:00, 45.18it/s]
+[epoch 58] train_loss: 1.024  val_accuracy: 0.684
+train epoch[59/100] loss:1.132: 100% 93/93 [00:14<00:00,  6.53it/s]
+100% 91/91 [00:02<00:00, 45.05it/s]
+[epoch 59] train_loss: 0.987  val_accuracy: 0.679
+train epoch[60/100] loss:1.424: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 44.05it/s]
+[epoch 60] train_loss: 1.041  val_accuracy: 0.624
+train epoch[61/100] loss:0.929: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 44.95it/s]
+[epoch 61] train_loss: 0.972  val_accuracy: 0.665
+train epoch[62/100] loss:0.724: 100% 93/93 [00:15<00:00,  5.98it/s]
+100% 91/91 [00:02<00:00, 44.82it/s]
+[epoch 62] train_loss: 1.006  val_accuracy: 0.690
+train epoch[63/100] loss:1.236: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 44.58it/s]
+[epoch 63] train_loss: 0.973  val_accuracy: 0.679
+train epoch[64/100] loss:0.762: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 45.10it/s]
+[epoch 64] train_loss: 1.009  val_accuracy: 0.679
+train epoch[65/100] loss:1.227: 100% 93/93 [00:14<00:00,  6.52it/s]
+100% 91/91 [00:02<00:00, 44.57it/s]
+[epoch 65] train_loss: 1.073  val_accuracy: 0.717
+train epoch[66/100] loss:1.312: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 45.14it/s]
+[epoch 66] train_loss: 0.974  val_accuracy: 0.657
+train epoch[67/100] loss:0.958: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 44.97it/s]
+[epoch 67] train_loss: 0.986  val_accuracy: 0.698
+train epoch[68/100] loss:0.523: 100% 93/93 [00:15<00:00,  5.90it/s]
+100% 91/91 [00:02<00:00, 44.97it/s]
+[epoch 68] train_loss: 0.931  val_accuracy: 0.687
+train epoch[69/100] loss:0.876: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 45.35it/s]
+[epoch 69] train_loss: 0.950  val_accuracy: 0.679
+train epoch[70/100] loss:0.890: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 44.92it/s]
+[epoch 70] train_loss: 0.955  val_accuracy: 0.676
+train epoch[71/100] loss:1.072: 100% 93/93 [00:14<00:00,  6.59it/s]
+100% 91/91 [00:02<00:00, 44.45it/s]
+[epoch 71] train_loss: 0.998  val_accuracy: 0.596
+train epoch[72/100] loss:1.150: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 44.29it/s]
+[epoch 72] train_loss: 0.916  val_accuracy: 0.665
+train epoch[73/100] loss:1.023: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 44.82it/s]
+[epoch 73] train_loss: 0.965  val_accuracy: 0.687
+train epoch[74/100] loss:1.422: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 44.51it/s]
+[epoch 74] train_loss: 1.006  val_accuracy: 0.709
+train epoch[75/100] loss:0.834: 100% 93/93 [00:14<00:00,  6.51it/s]
+100% 91/91 [00:02<00:00, 45.17it/s]
+[epoch 75] train_loss: 0.933  val_accuracy: 0.657
+train epoch[76/100] loss:0.836: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 44.83it/s]
+[epoch 76] train_loss: 0.968  val_accuracy: 0.679
+train epoch[77/100] loss:0.702: 100% 93/93 [00:14<00:00,  6.54it/s]
+100% 91/91 [00:02<00:00, 44.39it/s]
+[epoch 77] train_loss: 0.934  val_accuracy: 0.662
+train epoch[78/100] loss:1.119: 100% 93/93 [00:14<00:00,  6.57it/s]
+100% 91/91 [00:02<00:00, 44.88it/s]
+[epoch 78] train_loss: 0.954  val_accuracy: 0.673
+train epoch[79/100] loss:1.444: 100% 93/93 [00:14<00:00,  6.53it/s]
+100% 91/91 [00:02<00:00, 44.85it/s]
+[epoch 79] train_loss: 0.940  val_accuracy: 0.695
+train epoch[80/100] loss:0.548: 100% 93/93 [00:15<00:00,  5.88it/s]
+100% 91/91 [00:02<00:00, 44.60it/s]
+[epoch 80] train_loss: 0.980  val_accuracy: 0.714
+train epoch[81/100] loss:1.289: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 45.18it/s]
+[epoch 81] train_loss: 0.973  val_accuracy: 0.728
+train epoch[82/100] loss:0.843: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 45.06it/s]
+[epoch 82] train_loss: 0.956  val_accuracy: 0.706
+train epoch[83/100] loss:0.614: 100% 93/93 [00:14<00:00,  6.51it/s]
+100% 91/91 [00:02<00:00, 44.87it/s]
+[epoch 83] train_loss: 0.973  val_accuracy: 0.673
+train epoch[84/100] loss:0.918: 100% 93/93 [00:14<00:00,  6.51it/s]
+100% 91/91 [00:02<00:00, 44.48it/s]
+[epoch 84] train_loss: 0.997  val_accuracy: 0.717
+train epoch[85/100] loss:0.967: 100% 93/93 [00:14<00:00,  6.52it/s]
+100% 91/91 [00:02<00:00, 44.84it/s]
+[epoch 85] train_loss: 0.948  val_accuracy: 0.657
+train epoch[86/100] loss:0.963: 100% 93/93 [00:15<00:00,  5.94it/s]
+100% 91/91 [00:02<00:00, 45.05it/s]
+[epoch 86] train_loss: 1.019  val_accuracy: 0.706
+train epoch[87/100] loss:0.917: 100% 93/93 [00:14<00:00,  6.58it/s]
+100% 91/91 [00:02<00:00, 45.03it/s]
+[epoch 87] train_loss: 1.057  val_accuracy: 0.668
+train epoch[88/100] loss:1.422: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 45.01it/s]
+[epoch 88] train_loss: 0.915  val_accuracy: 0.676
+train epoch[89/100] loss:1.295: 100% 93/93 [00:14<00:00,  6.53it/s]
+100% 91/91 [00:02<00:00, 44.59it/s]
+[epoch 89] train_loss: 0.971  val_accuracy: 0.684
+train epoch[90/100] loss:1.198: 100% 93/93 [00:14<00:00,  6.50it/s]
+100% 91/91 [00:02<00:00, 45.38it/s]
+[epoch 90] train_loss: 0.929  val_accuracy: 0.703
+train epoch[91/100] loss:1.053: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 44.76it/s]
+[epoch 91] train_loss: 0.994  val_accuracy: 0.637
+train epoch[92/100] loss:0.537: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 45.21it/s]
+[epoch 92] train_loss: 0.954  val_accuracy: 0.717
+train epoch[93/100] loss:1.269: 100% 93/93 [00:14<00:00,  6.51it/s]
+100% 91/91 [00:02<00:00, 44.66it/s]
+[epoch 93] train_loss: 0.990  val_accuracy: 0.670
+train epoch[94/100] loss:0.741: 100% 93/93 [00:14<00:00,  6.52it/s]
+100% 91/91 [00:02<00:00, 44.81it/s]
+[epoch 94] train_loss: 0.937  val_accuracy: 0.725
+train epoch[95/100] loss:0.677: 100% 93/93 [00:14<00:00,  6.52it/s]
+100% 91/91 [00:02<00:00, 45.28it/s]
+[epoch 95] train_loss: 0.963  val_accuracy: 0.703
+train epoch[96/100] loss:1.014: 100% 93/93 [00:14<00:00,  6.56it/s]
+100% 91/91 [00:02<00:00, 44.48it/s]
+[epoch 96] train_loss: 0.985  val_accuracy: 0.626
+train epoch[97/100] loss:1.328: 100% 93/93 [00:14<00:00,  6.53it/s]
+100% 91/91 [00:02<00:00, 44.91it/s]
+[epoch 97] train_loss: 0.941  val_accuracy: 0.706
+train epoch[98/100] loss:0.475: 100% 93/93 [00:15<00:00,  5.92it/s]
+100% 91/91 [00:02<00:00, 44.49it/s]
+[epoch 98] train_loss: 0.957  val_accuracy: 0.687
+train epoch[99/100] loss:1.584: 100% 93/93 [00:14<00:00,  6.55it/s]
+100% 91/91 [00:02<00:00, 44.64it/s]
+[epoch 99] train_loss: 0.968  val_accuracy: 0.717
+train epoch[100/100] loss:0.563: 100% 93/93 [00:14<00:00,  6.53it/s]
+100% 91/91 [00:02<00:00, 44.71it/s]
+[epoch 100] train_loss: 0.946  val_accuracy: 0.679
+Finished Training
