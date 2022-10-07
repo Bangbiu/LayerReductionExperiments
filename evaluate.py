@@ -63,9 +63,14 @@ def evaluate_AlexNet(model_name, path):
 
 if __name__ == '__main__':
     sys.argv.__delitem__(0);
-    print('Evaluating Scheduled: ', str(sys.argv))
 
-    for modelName in sys.argv:
+    cmd_list = sys.argv;
+    if sys.argv[0] == "-f" and len(sys.argv) > 1:
+        cmd_list = open(sys.argv[1], "r").read().splitlines()
+
+    print('Evaluating Scheduled: ', str(cmd_list))
+
+    for modelName in cmd_list:
         if "@" in modelName:
             modelAndPath = modelName.split("@")
             modelName = modelAndPath[0]

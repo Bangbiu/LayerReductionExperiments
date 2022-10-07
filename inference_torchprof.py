@@ -54,11 +54,16 @@ def infer_eval_torchprof(model_name, path, inputData):
 if __name__ == '__main__':
 
     sys.argv.__delitem__(0);
-    print('Inferrence Scheduled: ', str(sys.argv))
+
+    cmd_list = sys.argv;
+    if sys.argv[0] == "-f" and len(sys.argv) > 1:
+        cmd_list = open(sys.argv[1], "r").read().splitlines()
+
+    print('Inferrence Scheduled: ', str(cmd_list))
 
     inputData = torch.rand([1, 3, 227, 227]).cuda()
 
-    for modelName in sys.argv:
+    for modelName in cmd_list:
         if "@" in modelName:
             modelAndPath = modelName.split("@")
             modelName = modelAndPath[0]
