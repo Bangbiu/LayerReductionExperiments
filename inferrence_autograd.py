@@ -1,8 +1,6 @@
 import os
 import sys
-import torch
 from model import *
-import torchprof
 #from torch.profiler import profile, record_function, ProfilerActivity
 
 # Directory
@@ -10,7 +8,7 @@ os.chdir(os.getcwd())
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def infer_eval_autograd(model_name, path, inputData):
-    print("Start Eval：", model_name+"@"+path)
+    print("Start 1000 Inferrence：", model_name+"@"+path)
 
     model = eval(model_name)(num_classes=5).to(device)
     # load model weights
@@ -21,8 +19,8 @@ def infer_eval_autograd(model_name, path, inputData):
     print("using {} device.".format(device))
 
     with torch.autograd.profiler.profile(use_cuda=True) as prof:
-
-        model(inputData)
+        for i in range(1000):
+            model(inputData)
     print(prof)
 
 if __name__ == '__main__':

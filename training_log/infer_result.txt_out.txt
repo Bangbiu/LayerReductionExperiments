@@ -1,0 +1,8 @@
+Self CPU time total: 64.380s
+Self CPU time total: 842.350ms
+Self CPU time total: 885.011ms
+Self CPU time total: 720.189ms
+Self CPU time total: 685.727ms
+Self CPU time total: 500.513ms
+Self CPU time total: 603.709ms
+Self CPU time total: 11.386ms

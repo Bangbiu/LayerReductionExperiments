@@ -1,0 +1,48 @@
+Start 1000 Inferrence： AlexNet@AlexNet.pth
+Self CPU time total: 8.689s
+Self CUDA time total: 9.072s
+Start 1000 Inferrence： AlexNet@AlexNet.pth
+Self CPU time total: 1.647s
+Self CUDA time total: 1.995s
+Start 1000 Inferrence： ANR_Conv1@ANR_Conv1_from_AlexNet.pth
+Self CPU time total: 1.242s
+Self CUDA time total: 1.601s
+Start 1000 Inferrence： ANR_Conv2@ANR_Conv2_from_AlexNet.pth
+Self CPU time total: 1.256s
+Self CUDA time total: 1.614s
+Start 1000 Inferrence： ANR_Conv3@ANR_Conv3_from_AlexNet.pth
+Self CPU time total: 1.427s
+Self CUDA time total: 1.789s
+Start 1000 Inferrence： ANR_Conv4@ANR_Conv4_from_AlexNet.pth
+Self CPU time total: 1.423s
+Self CUDA time total: 1.783s
+Start 1000 Inferrence： ANR_Conv5@ANR_Conv5_from_AlexNet.pth
+Self CPU time total: 1.576s
+Self CUDA time total: 1.928s
+Start 1000 Inferrence： ANR_2FC@ANR_2FC_from_AlexNet.pth
+Self CPU time total: 1.245s
+Self CUDA time total: 1.455s
+Start 1000 Inferrence： AlexNet_Extreme@AlexNet_Extreme_from_AlexNet.pth
+Self CPU time total: 378.633ms
+Self CUDA time total: 436.228ms
+Start 1000 Inferrence： ANR_Conv1_2FC@ANR_Conv1_2FC_from_AlexNet.pth
+Self CPU time total: 1.002s
+Self CUDA time total: 1.146s
+Start 1000 Inferrence： ANR_Conv2_2FC@ANR_Conv2_2FC_from_AlexNet.pth
+Self CPU time total: 993.980ms
+Self CUDA time total: 1.131s
+Start 1000 Inferrence： ANR_Conv3_2FC@ANR_Conv3_2FC_from_AlexNet.pth
+Self CPU time total: 1.064s
+Self CUDA time total: 1.234s
+Start 1000 Inferrence： ANR_Conv4_2FC@ANR_Conv4_2FC_from_AlexNet.pth
+Self CPU time total: 1.083s
+Self CUDA time total: 1.255s
+Start 1000 Inferrence： ANR_Conv5_2FC@ANR_Conv5_2FC_from_AlexNet.pth
+Self CPU time total: 1.268s
+Self CUDA time total: 1.452s
+Start 1000 Inferrence： ANR_Conv3_4_5_2FC@ANR_Conv3_4_5_2FC_from_AlexNet.pth
+Self CPU time total: 644.255ms
+Self CUDA time total: 769.806ms
+Start 1000 Inferrence： ANR_Conv4_5_2FC@ANR_Conv4_5_2FC_from_AlexNet.pth
+Self CPU time total: 853.415ms
+Self CUDA time total: 1.044s
